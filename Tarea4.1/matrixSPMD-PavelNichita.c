@@ -75,7 +75,6 @@ int main(int argc, char *argv[]) {
 	if (myid != root) {
 		MPI_Bcast(matrix_B, matrix_size, MPI_INT, root, MPI_COMM_WORLD);
 	}
-	//print_matrix(matrix_B, size_rows, size_cols, myid, "Matriz B");
 
 	/**
 	* Paso 2: Calculamos los tamaños de los trozos de la matriz A
@@ -100,15 +99,13 @@ int main(int argc, char *argv[]) {
 		displs[i] = index;
 		index += sendcount[i];
 	}
-	//fprintf(stdout, "sendcount[%d] = %d\tdispls[%d] = %d\n", myid, sendcount[myid], myid, displs[myid]);
-	
+
 	/**
 	 * Paso 3: Reservamos espacio para recibir los trozos de la matriz A
 	 */
 	int* rec_A = malloc(sendcount[myid]*INT);
 	int rec_A_size = sendcount[myid]*INT;
 	int rows = rec_A_size/(INT*size_cols);
-	//fprintf(stdout, "Size of rec_A: %d Rows: %d Process: %d\n", rec_A_size, rows, myid);
 
 	/**
 	 * Paso 4: Creamos la matriz A y la enviamos por trozos a las procesos
@@ -116,23 +113,16 @@ int main(int argc, char *argv[]) {
 	 */ 
 	int* matrix_A = malloc(matrix_size*INT);
 	fill_matrix(matrix_A, size_rows, size_cols, 2);
-	//if (myid == root)
+	//if (myid == root) // Imprimir Matriz A
 		//print_matrix(matrix_A, size_rows, size_cols, myid, "Matriz A");
 	MPI_Scatterv(matrix_A, sendcount, displs, MPI_INT, rec_A, rec_A_size, MPI_INT, root, MPI_COMM_WORLD);
 	free(matrix_A);
 
-	//print_matrix(rec_A, rows, size_cols, myid, "Matriz A");
-	//print_array(rec_A, rec_A_size/INT, myid, "Array matriz A");
-	//fprintf(stdout, "Procces: %d received matrix A\n", myid);
-	
 	/**
 	 * Paso 5: Hacemos la multiplicacion entre
 	 * trozo matriz B y toda la matriz A 
 	 */ 
 	int* matrix_C = mult_matrix(rec_A, matrix_B, rows, size_rows, size_cols);
-	//print_matrix(matrix_B, size_rows, size_cols, myid, "Matriz B");
-	//print_matrix(rec_A, rows, size_cols, myid, "Matriz A");
-	//print_matrix(matrix_C, rows, size_cols, myid, "Matriz C");
 
 	/**
 	 * Paso 6: Recolectamos la los trozos resultantes de la multiplicacion
@@ -141,6 +131,7 @@ int main(int argc, char *argv[]) {
 	MPI_Gatherv(matrix_C, sendcount[myid], MPI_INT, matrix_final, sendcount, displs, MPI_INT, root, MPI_COMM_WORLD);
 
 	/*
+	 * Imprimir Matriz B y Matriz resultante de la multiplicación
 	if (myid == root) {
 		print_matrix(matrix_B, size_rows, size_cols, root, "Matriz B");
 		print_matrix(matrix_final, size_rows, size_cols, root, "Matriz Final");
@@ -204,11 +195,8 @@ int* mult_matrix(int* matrix_A, int* matrix_B, int size_rows_A, int size_rows_B,
 	for (i = 0; i < size_rows_A; i++) {
 		for (j = 0; j < size_rows_B; j++) {
 			matrix_C[i*size_cols+j] = 0;
-			for (k = 0; k < size_rows_B; k++) {
+			for (k = 0; k < size_rows_B; k++)
 				matrix_C[i*size_cols+j] += matrix_A[i*size_cols+k] * matrix_B[k*size_cols+j];
-				//fprintf(stdout, "i: %d, j: %d, k: %d ", i, j, k);
-				//fprintf(stdout, "Matriz A: %d Matriz B: %d Matriz C: %d\n", matrix_A[i*size_cols+k],  matrix_B[k*size_cols+j], matrix_C[i*size_cols+j]);
-			}
 		}
 	}
 

@@ -1,2 +1,2 @@
 make:
-	mpicc -o matrix matrixPavelNichita.c
+	mpicc -o matrixSPMD-PavelNichita.out matrixSPMD-PavelNichita.c
