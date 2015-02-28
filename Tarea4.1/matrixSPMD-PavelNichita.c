@@ -12,6 +12,9 @@
  * En la matriz @matrix_C se colecta las multiplicaciones realizados por los
  *  procesos mediante MPI_Gatherv.
  * 
+ * *****************************
+ * -----**** ATENCIÓN *****-----
+ * *****************************
  * Por la linea de comandos se pasan varios argumentos (no hay valores por defecto): 
  * mpirun -n 4 ./matrixSPMDPavelNichita.out 500 40 2 0
  * donde 500 - es el tamaño de la matriz: 500x500
