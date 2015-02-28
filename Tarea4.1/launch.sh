@@ -1,2 +1,2 @@
 clear;
-mpirun -n 4 ./matrixSPMD-PavelNichita.out 2000
+mpirun -n 4 ./matrixSPMD-PavelNichita.out 4
