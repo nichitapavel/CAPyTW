@@ -12,9 +12,14 @@
  * En la matriz @matrix_C se colecta las multiplicaciones realizados por los
  *  procesos mediante MPI_Gatherv.
  * 
- * El tamaño de las matrices se pasa por la linea de comandos, por ejemplo: 
- * mpirun -n 4 ./matrixSPMDPavelNichita.out 500
- * donde 500 es el tamaño de la matriz: 500x500
+ * Por la linea de comandos se pasan varios argumentos (no hay valores por defecto): 
+ * mpirun -n 4 ./matrixSPMDPavelNichita.out 500 40 2 0
+ * donde 500 - es el tamaño de la matriz: 500x500
+ * donde 40  - es el modulo de matriz A (mirar @module_A)
+ * donde 2   - es el modulo de matriz B (mirar @module_B)
+ * donde 0   - es si se imprimem las matrices:
+ *              valor "0"            - no se imprime
+ *              valor distinto a "0" - se imprime
  * 
  * @author Pavel Nichita
  * @version 1.0 28/02/15
@@ -30,45 +35,126 @@
 #define INT sizeof(int)
 
 void print_time(void);
-int* mult_matrix(int* matrix_A, int* matrix_B, int size_rows_A, int size_rows_B, int size_cols);
+
+/**
+ * mult_matrix - Multiplica dos matrices: A y B
+ * 
+ * @param *matrix_A - Matriz A
+ * @param *matrix_B - Matriz B
+ * @param rows_A    - Numero de filas matriz A
+ * @param rows_B    - Numero de filas matriz B
+ * @param size_cols - Numero de columnas, matriz cuadrada = mismo valor matriz A y B
+ *
+ * @return *        - Multiplicación de matriz A con matriz B
+*/
+int* mult_matrix(int* matrix_A, int* matrix_B, int rows_A, int rows_B, int size_cols);
+
+/**
+ * print_matrix - Imprime una matriz
+ * 
+ * @param *matrix   - Matriz a imprimir
+ * @param size_rows - Numero de filas
+ * @param size_cols - Numero de columnas
+ * @param myid      - Proceso de donde se imprime
+ * @param *str      - Mensaje que se imprime, ej: "Matriz A" 
+*/
 void print_matrix(int* matrix, int size_rows, int size_cols, int myid, char* str);
+
+/**
+ * fill_matrix - Inserta valores en una matriz
+ * 
+ * @param *matrix   - Matriz a rellanar
+ * @param size_rows - Numero de filas
+ * @param size_cols - Numero de columnas
+ * @param mod       - Modulo de los numeros a rellenar (mirar @module_A o @module_B)
+*/
 void fill_matrix(int* matrix, int size_rows, int size_cols, int mod);
+
+/**
+ * print_array - Imprime un array
+ * 
+ * @param *array - Array a imprimir
+ * @param size   - Tamaño del array
+ * @param myid   - Proceso de donde se imprime
+ * @param *str   - Mensaje que se imprime, ej: "Array sendcount" 
+*/
 void print_array(int* array, int size, int myid, char* str);
 
 int main(int argc, char *argv[]) {
-	int index = 0, root = 0, tag = 100;
-	int size_rows, size_cols, matrix_size;
-	int i, myid, numprocs, mod_block;
-	int *matrix_B, *matrix_A, *matrix_C;
-	int *sendcount, *displs;
-	MPI_Status status;
+		/**
+	 *  Descripción de variables - Variables generales;
+	 * @root     - proceso principal, en este caso 0
+	 * @myid     - identificador proceso "actual"
+	 * @numprocs - numero de procesos
+	 
+	 *  Descripción de variables - Tamaños de matrices
+	 * @size_rows   - numero de filas de las matrices, se establece mediante argv[1]
+	 * @size_cols   - numero de columnas de las matrices, se establece mediante argv[1]
+	 * @matrix_size - numero de elementos de la matriz: @size_rows * @size_cols
+	 * @size_rows_recv_matrix_A - numero de filas del trozo enviado de la matriz A
+	 
+	 *  Descripción de variables - Matrices
+	 * @*matrix_A      - Matriz A, multiplicando de la operación, esta matriz se parte 
+	 *                   en varios trozos y se envie a los procesos mediante MPI_Scatterv
+	 * @*matrix_B      - Matriz B, multiplicador de la operación, se envia entera a los
+	 *                   procesos mediante MPI_Bcast
+	 * @*matrix_C      - Matriz C, matriz donde se guarda el resultado de la multiplicación
+	 *                   entre A y B, los datos se recolentan el ella mediante MPI_Gatherv
+	 * @*recv_matrix_A - Matriz con doble funcionalidad, 1. los trozos de la matriz A que se
+	 *                  envien con MPI_Scatterv se guarda en ella, 2. la multiplicación entre
+	 *                   trozo matriz A y matriz B también se guarda en ella (se sobreescibe)
+
+	 *  Descripción de variables - variables de apoyo
+	 * @*sendcount - array donde se guarda el tamaño del trozo de la matriz A, trozo que se
+	 *               envia con MPI_Scatterv
+	 * @*displs    - array donde se guarda la posicion de la matriz A de donde se empiezan
+	 *               a enviar el trozo (displacement)
+	 * @mod_block  - variable que nos indica si la matriz se trozea perfectamente al numero
+	 *               de procesadores
+	 * @index      - variable que se utiliza para calcular la posición donde se empieza a enviar 
+	 *               el trozo de la matriz A (@*displs)
+	 * @module_A   - modulo de la matriz A, ej: @module_A = 40, matriz con numeros entre 0 y 40
+	 *               se recibe mediante argv[2]
+	 * @module_B   - modulo de la matriz B, igual que @module_A
+	 *               se recibe mediante argv[3]
+	 * @print      - imprimir matrices? 0: no, !0 = si, se recibe mediante argv[4]
+	 */
+	int root = 0, myid, numprocs;
 	
+	int size_rows, size_cols, matrix_size;
+	int size_rows_recv_matrix_A;
+
+	int *matrix_B, *matrix_A, *matrix_C;
+	int *recv_matrix_A;
+
+	int *sendcount, *displs;
+	int i, mod_block, index = 0;
+	int module_A, module_B, print;
+
+	MPI_Status status;
+
+	//asignamos los tamaños de filas y columnas, y tamaño matriz
 	size_rows = atoi(argv[1]);
 	size_cols = atoi(argv[1]);
 	matrix_size = size_rows * size_cols;
+
+	//asignamos los modulos matriz A y matriz B, y si se imprime
+	module_A = atoi(argv[2]);
+	module_B = atoi(argv[3]);
+	print    = atoi(argv[4]);
 
 	MPI_Init(&argc,&argv);
 	MPI_Comm_size(MPI_COMM_WORLD,&numprocs);
 	MPI_Comm_rank(MPI_COMM_WORLD,&myid);
 
 	/**
-	 *  Descripción de variables
-	 * 
-	 * @matrix      - matriz "suprema", donde se guarda los trozos recolectados de los procesadores
-	 *  tamaño numero procesadores * numero de procesadores
-	 * @myid_matrix - matriz parcial para cada procesador
-	*/
-
-	matrix_B = malloc(matrix_size*INT);
-	sendcount = malloc(numprocs*INT);
-	displs = malloc(numprocs*INT);
-
-	/**
-	 * Paso 1: Creamos matriz B, con la cual se multiplicara
+	 * Paso 1: Creamos matriz B, multiplicador
 	 * y la enviamos por broadcast a todos los procesadores
 	 */ 
+	matrix_B = malloc(matrix_size*INT);
 	if (myid == root) {
-		fill_matrix(matrix_B, size_rows, size_cols, 10);
+		print_time();
+		fill_matrix(matrix_B, size_rows, size_cols, module_B);
 		MPI_Bcast(matrix_B, matrix_size, MPI_INT, root, MPI_COMM_WORLD);
 	}
 
@@ -78,25 +164,29 @@ int main(int argc, char *argv[]) {
 
 	/**
 	* Paso 2: Calculamos los tamaños de los trozos de la matriz A
-	* que se enviaran a los procesadores 
-	*/ 
-
-	/**
+	* que se enviaran a los procesadores y su posición
+	* El tamaño se guarda en @*sendcount
+	* La posición se guarda en @*displs
+	* 
 	* si @mod_block es distinto a "0"
-	* el tamaño del bloque principal se incrementa en una unidad
-	* es necesario para los casos cuando no se puede dividir perfectamente
-	* los bloques entre numero de procesadores
+	* el los trozos de matriz A no tienen tamaño exacto
 	*/
+	sendcount = malloc(numprocs*INT);
+	displs = malloc(numprocs*INT);
 	mod_block  = size_rows % numprocs;
+	
 	for (i = 0; i < numprocs; i++) {
 		if (mod_block > 0) {
-			sendcount[i] = (size_rows/numprocs + 1)*size_rows;
+			//aumentamos el tamaño del trozo enviar y restamos los numeros de trozos más grandes
+			sendcount[i] = (size_rows/numprocs + 1) * size_rows;
 			mod_block--;
 		}
 		else {
 			sendcount[i] = size_rows/numprocs * size_rows;
 		}
-
+		//calculamos la posicón del trozo en Matriz A
+		//ej: tamaño trozo 1 = 4, posición = 0
+		//    tamaño trozo 2 = 4, posición = 4
 		displs[i] = index;
 		index += sendcount[i];
 	}
@@ -104,48 +194,48 @@ int main(int argc, char *argv[]) {
 	/**
 	 * Paso 3: Reservamos espacio para recibir los trozos de la matriz A
 	 */
-	int* recv_matrix_A = malloc(sendcount[myid]*INT);
-	int recv_matrix_A_size = sendcount[myid]*INT;
-	int rows = recv_matrix_A_size/(INT*size_cols);
+	recv_matrix_A = malloc(sendcount[myid]*INT);
+	size_rows_recv_matrix_A = sendcount[myid]/size_cols; //numero de filas del trozo
 
 	/**
 	 * Paso 4: Creamos la matriz A y la enviamos por trozos a las procesos
 	 * Una vez enviada eliberamos la memoria
 	 */ 
 	matrix_A = malloc(matrix_size*INT);
-	fill_matrix(matrix_A, size_rows, size_cols, 2);
-	if (myid == root) // Imprimir Matriz A
+	fill_matrix(matrix_A, size_rows, size_cols, module_A);
+	MPI_Scatterv(matrix_A, sendcount, displs, MPI_INT, recv_matrix_A, sendcount[myid], MPI_INT, root, MPI_COMM_WORLD);
+	if (print != 0 && myid == root) // Imprimir Matriz A
 		print_matrix(matrix_A, size_rows, size_cols, myid, "Matriz A");
-	MPI_Scatterv(matrix_A, sendcount, displs, MPI_INT, recv_matrix_A, recv_matrix_A_size, MPI_INT, root, MPI_COMM_WORLD);
 	free(matrix_A);
 
 	/**
 	 * Paso 5: Hacemos la multiplicacion entre
-	 * trozo matriz B y toda la matriz A 
+	 * trozo matriz A y toda la matriz B 
 	 */ 
-	matrix_C = mult_matrix(recv_matrix_A, matrix_B, rows, size_rows, size_cols);
+	recv_matrix_A = mult_matrix(recv_matrix_A, matrix_B, size_rows_recv_matrix_A, size_rows, size_cols);
 
 	/**
 	 * Paso 6: Recolectamos la los trozos resultantes de la multiplicacion
 	 */
-	int* matrix_final = malloc(matrix_size*INT);
-	MPI_Gatherv(matrix_C, sendcount[myid], MPI_INT, matrix_final, sendcount, displs, MPI_INT, root, MPI_COMM_WORLD);
+	matrix_C = malloc(matrix_size*INT);
+	MPI_Gatherv(recv_matrix_A, sendcount[myid], MPI_INT, matrix_C, sendcount, displs, MPI_INT, root, MPI_COMM_WORLD);
 
 	/*
 	 * Imprimir Matriz B y Matriz resultante de la multiplicación
 	 * */
-	if (myid == root) {
+	if (print != 0 && myid == root) {
 		print_matrix(matrix_B, size_rows, size_cols, root, "Matriz B");
-		print_matrix(matrix_final, size_rows, size_cols, root, "Matriz Final");
+		print_matrix(matrix_C, size_rows, size_cols, root, "Matriz Final");
 	}
 	
 	/**
 	 * Paso 7: Eliberamos toda la memoria 
 	 */
 	free(matrix_B);
-	free(recv_matrix_A);
 	free(matrix_C);
-	free(matrix_final);
+	free(sendcount);
+	free(displs);
+	free(recv_matrix_A);
 	
 	fprintf(stdout, "Finish Process %d\n", myid);
 
@@ -189,14 +279,14 @@ void print_array(int* array, int size, int myid, char* str) {
 	fprintf(stdout, "\n");
 }
 
-int* mult_matrix(int* matrix_A, int* matrix_B, int size_rows_A, int size_rows_B, int size_cols) {
+int* mult_matrix(int* matrix_A, int* matrix_B, int rows_A, int rows_B, int size_cols) {
 	int i, j, k;
-	int* matrix_C = malloc(size_rows_A*size_cols*INT);
+	int* matrix_C = malloc(rows_A*size_cols*INT);
 	
-	for (i = 0; i < size_rows_A; i++) {
-		for (j = 0; j < size_rows_B; j++) {
+	for (i = 0; i < rows_A; i++) {
+		for (j = 0; j < rows_B; j++) {
 			matrix_C[i*size_cols+j] = 0;
-			for (k = 0; k < size_rows_B; k++)
+			for (k = 0; k < rows_B; k++)
 				matrix_C[i*size_cols+j] += matrix_A[i*size_cols+k] * matrix_B[k*size_cols+j];
 		}
 	}
