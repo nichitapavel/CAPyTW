@@ -1,0 +1,3 @@
+Hello world from processor pavel-Desktop, rank 0 out of 3 processors
+Hello world from processor pavel-Desktop, rank 2 out of 3 processors
+Hello world from processor pavel-Desktop, rank 1 out of 3 processors

@@ -1,0 +1,120 @@
+
+Process 0 of 4 on pavel-Desktop
+aquí myid: 0 i: 1
+aquí myid: 0 i: 5
+aquí myid: 0 i: 9
+aquí myid: 0 i: 13
+
+Process 1 of 4 on pavel-Desktop
+aquí myid: 1 i: 2
+aquí myid: 1 i: 6
+aquí myid: 1 i: 10
+aquí myid: 1 i: 14
+aquí myid: 1 i: 18
+aquí myid: 1 i: 22
+aquí myid: 1 i: 26
+aquí myid: 1 i: 30
+aquí myid: 1 i: 34
+aquí myid: 1 i: 38
+
+Process 2 of 4 on pavel-Desktop
+aquí myid: 0 i: 17
+aquí myid: 0 i: 21
+aquí myid: 0 i: 25
+aquí myid: 0 i: 29
+aquí myid: 0 i: 33
+aquí myid: 0 i: 37
+aquí myid: 0 i: 41
+aquí myid: 0 i: 45
+aquí myid: 0 i: 49
+aquí myid: 0 i: 53
+aquí myid: 0 i: 57
+aquí myid: 0 i: 61
+aquí myid: 0 i: 65
+aquí myid: 0 i: 69
+aquí myid: 0 i: 73
+aquí myid: 0 i: 77
+aquí myid: 0 i: 81
+aquí myid: 0 i: 85
+aquí myid: 0 i: 89
+aquí myid: 0 i: 93
+aquí myid: 0 i: 97
+
+Processor: 0, mypi: 0.7928763409009609
+aquí myid: 2 i: 3
+aquí myid: 2 i: 7
+aquí myid: 2 i: 11
+aquí myid: 2 i: 15
+aquí myid: 2 i: 19
+aquí myid: 2 i: 23
+aquí myid: 2 i: 27
+aquí myid: 2 i: 31
+aquí myid: 2 i: 35
+aquí myid: 2 i: 39
+aquí myid: 2 i: 43
+aquí myid: 2 i: 47
+aquí myid: 2 i: 51
+aquí myid: 2 i: 55
+aquí myid: 2 i: 59
+aquí myid: 2 i: 63
+aquí myid: 2 i: 67
+aquí myid: 2 i: 71
+aquí myid: 2 i: 75
+aquí myid: 2 i: 79
+aquí myid: 2 i: 83
+aquí myid: 2 i: 87
+aquí myid: 2 i: 91
+aquí myid: 2 i: 95
+aquí myid: 2 i: 99
+
+Processor: 2, mypi: 0.7829244650957667
+aquí myid: 1 i: 42
+aquí myid: 1 i: 46
+aquí myid: 1 i: 50
+aquí myid: 1 i: 54
+aquí myid: 1 i: 58
+aquí myid: 1 i: 62
+aquí myid: 1 i: 66
+aquí myid: 1 i: 70
+aquí myid: 1 i: 74
+aquí myid: 1 i: 78
+aquí myid: 1 i: 82
+aquí myid: 1 i: 86
+aquí myid: 1 i: 90
+aquí myid: 1 i: 94
+aquí myid: 1 i: 98
+
+Processor: 1, mypi: 0.7879260283629755
+
+Process 3 of 4 on pavel-Desktop
+aquí myid: 3 i: 4
+aquí myid: 3 i: 8
+aquí myid: 3 i: 12
+aquí myid: 3 i: 16
+aquí myid: 3 i: 20
+aquí myid: 3 i: 24
+aquí myid: 3 i: 28
+aquí myid: 3 i: 32
+aquí myid: 3 i: 36
+aquí myid: 3 i: 40
+aquí myid: 3 i: 44
+aquí myid: 3 i: 48
+aquí myid: 3 i: 52
+aquí myid: 3 i: 56
+aquí myid: 3 i: 60
+aquí myid: 3 i: 64
+aquí myid: 3 i: 68
+aquí myid: 3 i: 72
+aquí myid: 3 i: 76
+aquí myid: 3 i: 80
+aquí myid: 3 i: 84
+aquí myid: 3 i: 88
+aquí myid: 3 i: 92
+aquí myid: 3 i: 96
+aquí myid: 3 i: 100
+
+Processor: 3, mypi: 0.7778741525634219
+
+pi is approximately 3.1416009869231249, Error is 0.0000083333333318
+
+wall clock time = 1424044193.410661

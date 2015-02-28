@@ -1,0 +1,119 @@
+[H[2J
+Process 0 of 4 on pavel-Desktop
+aquí myid: 0 i_int: 0 i: 0
+aquí myid: 0 i_int: 1 i: 1
+aquí myid: 0 i_int: 2 i: 2
+aquí myid: 0 i_int: 3 i: 3
+aquí myid: 0 i_int: 4 i: 4
+aquí myid: 0 i_int: 5 i: 5
+aquí myid: 0 i_int: 6 i: 6
+aquí myid: 0 i_int: 7 i: 7
+aquí myid: 0 i_int: 8 i: 8
+aquí myid: 0 i_int: 9 i: 9
+aquí myid: 0 i_int: 10 i: 10
+aquí myid: 0 i_int: 11 i: 11
+aquí myid: 0 i_int: 12 i: 12
+aquí myid: 0 i_int: 13 i: 13
+aquí myid: 0 i_int: 14 i: 14
+aquí myid: 0 i_int: 15 i: 15
+aquí myid: 0 i_int: 16 i: 16
+aquí myid: 0 i_int: 17 i: 17
+aquí myid: 0 i_int: 18 i: 18
+aquí myid: 0 i_int: 19 i: 19
+aquí myid: 0 i_int: 20 i: 20
+aquí myid: 0 i_int: 21 i: 21
+aquí myid: 0 i_int: 22 i: 22
+aquí myid: 0 i_int: 23 i: 23
+aquí myid: 0 i_int: 24 i: 24
+aquí myid: 0 i_int: 25 i: 25
+
+Processor: 0, mypi: 1.0199210345232654
+[22;32mTIME: 2015-02-16 00:09:35
+[m
+[22;32mpi is approximately 3.0990177994822621, Error is 0.0425748541075310
+[m
+wall clock time = 1424045375.013744
+
+Process 1 of 4 on pavel-Desktop
+aquí myid: 1 i_int: 26 i: 1
+aquí myid: 1 i_int: 27 i: 2
+aquí myid: 1 i_int: 28 i: 3
+aquí myid: 1 i_int: 29 i: 4
+aquí myid: 1 i_int: 30 i: 5
+aquí myid: 1 i_int: 31 i: 6
+aquí myid: 1 i_int: 32 i: 7
+aquí myid: 1 i_int: 33 i: 8
+aquí myid: 1 i_int: 34 i: 9
+aquí myid: 1 i_int: 35 i: 10
+aquí myid: 1 i_int: 36 i: 11
+aquí myid: 1 i_int: 37 i: 12
+aquí myid: 1 i_int: 38 i: 13
+aquí myid: 1 i_int: 39 i: 14
+aquí myid: 1 i_int: 40 i: 15
+aquí myid: 1 i_int: 41 i: 16
+aquí myid: 1 i_int: 42 i: 17
+aquí myid: 1 i_int: 43 i: 18
+aquí myid: 1 i_int: 44 i: 19
+aquí myid: 1 i_int: 45 i: 20
+aquí myid: 1 i_int: 46 i: 21
+aquí myid: 1 i_int: 47 i: 22
+aquí myid: 1 i_int: 48 i: 23
+aquí myid: 1 i_int: 49 i: 24
+aquí myid: 1 i_int: 50 i: 25
+
+Processor: 1, mypi: 0.8746790683508279
+
+Process 2 of 4 on pavel-Desktop
+aquí myid: 2 i_int: 52 i: 2
+aquí myid: 2 i_int: 53 i: 3
+aquí myid: 2 i_int: 54 i: 4
+aquí myid: 2 i_int: 55 i: 5
+aquí myid: 2 i_int: 56 i: 6
+aquí myid: 2 i_int: 57 i: 7
+aquí myid: 2 i_int: 58 i: 8
+aquí myid: 2 i_int: 59 i: 9
+aquí myid: 2 i_int: 60 i: 10
+aquí myid: 2 i_int: 61 i: 11
+aquí myid: 2 i_int: 62 i: 12
+aquí myid: 2 i_int: 63 i: 13
+aquí myid: 2 i_int: 64 i: 14
+aquí myid: 2 i_int: 65 i: 15
+aquí myid: 2 i_int: 66 i: 16
+aquí myid: 2 i_int: 67 i: 17
+aquí myid: 2 i_int: 68 i: 18
+aquí myid: 2 i_int: 69 i: 19
+aquí myid: 2 i_int: 70 i: 20
+aquí myid: 2 i_int: 71 i: 21
+aquí myid: 2 i_int: 72 i: 22
+aquí myid: 2 i_int: 73 i: 23
+aquí myid: 2 i_int: 74 i: 24
+aquí myid: 2 i_int: 75 i: 25
+
+Processor: 2, mypi: 0.6875416973260166
+
+Process 3 of 4 on pavel-Desktop
+aquí myid: 3 i_int: 78 i: 3
+aquí myid: 3 i_int: 79 i: 4
+aquí myid: 3 i_int: 80 i: 5
+aquí myid: 3 i_int: 81 i: 6
+aquí myid: 3 i_int: 82 i: 7
+aquí myid: 3 i_int: 83 i: 8
+aquí myid: 3 i_int: 84 i: 9
+aquí myid: 3 i_int: 85 i: 10
+aquí myid: 3 i_int: 86 i: 11
+aquí myid: 3 i_int: 87 i: 12
+aquí myid: 3 i_int: 88 i: 13
+aquí myid: 3 i_int: 89 i: 14
+aquí myid: 3 i_int: 90 i: 15
+aquí myid: 3 i_int: 91 i: 16
+aquí myid: 3 i_int: 92 i: 17
+aquí myid: 3 i_int: 93 i: 18
+aquí myid: 3 i_int: 94 i: 19
+aquí myid: 3 i_int: 95 i: 20
+aquí myid: 3 i_int: 96 i: 21
+aquí myid: 3 i_int: 97 i: 22
+aquí myid: 3 i_int: 98 i: 23
+aquí myid: 3 i_int: 99 i: 24
+aquí myid: 3 i_int: 100 i: 25
+
+Processor: 3, mypi: 0.5168759992821522

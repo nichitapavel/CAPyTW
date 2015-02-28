@@ -1,0 +1,1022 @@
+Process 0 of 1 on pavel-Desktop
+wall clock time = 1.432209, Prod time: 0.0000000014322093, x = 1000000000.000000
+Process 0 of 2 on pavel-Desktop
+Process 1 of 2 on pavel-Desktop
+wall clock time = 1.432323, Prod time: 0.0000000014323235, x = 1000000000.000000
+wall clock time = 1.432517, Prod time: 0.0000000014325171, x = 1000000000.000000
+Process 0 of 4 on pavel-Desktop
+Process 1 of 4 on pavel-Desktop
+Process 2 of 4 on pavel-Desktop
+Process 3 of 4 on pavel-Desktop
+wall clock time = 1.430809, Prod time: 0.0000000014308085, x = 1000000000.000000
+wall clock time = 1.435202, Prod time: 0.0000000014352021, x = 1000000000.000000
+wall clock time = 1.454468, Prod time: 0.0000000014544685, x = 1000000000.000000
+wall clock time = 1.479154, Prod time: 0.0000000014791536, x = 1000000000.000000
+Process 2 of 8 on pavel-Desktop
+Process 4 of 8 on pavel-Desktop
+Process 0 of 8 on pavel-Desktop
+Process 6 of 8 on pavel-Desktop
+Process 5 of 8 on pavel-Desktop
+Process 1 of 8 on pavel-Desktop
+Process 7 of 8 on pavel-Desktop
+Process 3 of 8 on pavel-Desktop
+wall clock time = 2.747612, Prod time: 0.0000000027476125, x = 1000000000.000000
+wall clock time = 2.842266, Prod time: 0.0000000028422658, x = 1000000000.000000
+wall clock time = 2.871167, Prod time: 0.0000000028711674, x = 1000000000.000000
+wall clock time = 2.882248, Prod time: 0.0000000028822477, x = 1000000000.000000
+wall clock time = 2.918613, Prod time: 0.0000000029186132, x = 1000000000.000000
+wall clock time = 2.928957, Prod time: 0.0000000029289570, x = 1000000000.000000
+wall clock time = 2.944123, Prod time: 0.0000000029441228, x = 1000000000.000000
+wall clock time = 2.955051, Prod time: 0.0000000029550509, x = 1000000000.000000
+Process 0 of 16 on pavel-Desktop
+Process 1 of 16 on pavel-Desktop
+Process 2 of 16 on pavel-Desktop
+Process 11 of 16 on pavel-Desktop
+Process 8 of 16 on pavel-Desktop
+Process 14 of 16 on pavel-Desktop
+Process 15 of 16 on pavel-Desktop
+Process 5 of 16 on pavel-Desktop
+Process 9 of 16 on pavel-Desktop
+Process 10 of 16 on pavel-Desktop
+Process 13 of 16 on pavel-Desktop
+Process 6 of 16 on pavel-Desktop
+Process 12 of 16 on pavel-Desktop
+Process 7 of 16 on pavel-Desktop
+Process 4 of 16 on pavel-Desktop
+Process 3 of 16 on pavel-Desktop
+wall clock time = 5.684743, Prod time: 0.0000000056847434, x = 1000000000.000000
+wall clock time = 5.694530, Prod time: 0.0000000056945300, x = 1000000000.000000
+wall clock time = 5.701896, Prod time: 0.0000000057018964, x = 1000000000.000000
+wall clock time = 5.721296, Prod time: 0.0000000057212956, x = 1000000000.000000
+wall clock time = 5.716979, Prod time: 0.0000000057169785, x = 1000000000.000000
+wall clock time = 5.727001, Prod time: 0.0000000057270007, x = 1000000000.000000
+wall clock time = 5.724816, Prod time: 0.0000000057248158, x = 1000000000.000000
+wall clock time = 5.732543, Prod time: 0.0000000057325425, x = 1000000000.000000
+wall clock time = 5.733285, Prod time: 0.0000000057332852, x = 1000000000.000000
+wall clock time = 5.737243, Prod time: 0.0000000057372429, x = 1000000000.000000
+wall clock time = 5.760302, Prod time: 0.0000000057603018, x = 1000000000.000000
+wall clock time = 5.769885, Prod time: 0.0000000057698846, x = 1000000000.000000
+wall clock time = 5.932263, Prod time: 0.0000000059322627, x = 1000000000.000000
+wall clock time = 5.950527, Prod time: 0.0000000059505274, x = 1000000000.000000
+wall clock time = 5.948334, Prod time: 0.0000000059483337, x = 1000000000.000000
+wall clock time = 5.954932, Prod time: 0.0000000059549322, x = 1000000000.000000
+Process 29 of 32 on pavel-Desktop
+Process 5 of 32 on pavel-Desktop
+Process 8 of 32 on pavel-Desktop
+Process 10 of 32 on pavel-Desktop
+Process 11 of 32 on pavel-Desktop
+Process 18 of 32 on pavel-Desktop
+Process 24 of 32 on pavel-Desktop
+Process 28 of 32 on pavel-Desktop
+Process 7 of 32 on pavel-Desktop
+Process 21 of 32 on pavel-Desktop
+Process 4 of 32 on pavel-Desktop
+Process 19 of 32 on pavel-Desktop
+Process 6 of 32 on pavel-Desktop
+Process 13 of 32 on pavel-Desktop
+Process 16 of 32 on pavel-Desktop
+Process 20 of 32 on pavel-Desktop
+Process 23 of 32 on pavel-Desktop
+Process 12 of 32 on pavel-Desktop
+Process 27 of 32 on pavel-Desktop
+Process 3 of 32 on pavel-Desktop
+Process 26 of 32 on pavel-Desktop
+Process 22 of 32 on pavel-Desktop
+Process 9 of 32 on pavel-Desktop
+Process 30 of 32 on pavel-Desktop
+Process 17 of 32 on pavel-Desktop
+Process 15 of 32 on pavel-Desktop
+Process 25 of 32 on pavel-Desktop
+Process 1 of 32 on pavel-Desktop
+Process 0 of 32 on pavel-Desktop
+Process 14 of 32 on pavel-Desktop
+Process 31 of 32 on pavel-Desktop
+Process 2 of 32 on pavel-Desktop
+wall clock time = 11.411315, Prod time: 0.0000000114113147, x = 1000000000.000000
+wall clock time = 11.411087, Prod time: 0.0000000114110873, x = 1000000000.000000
+wall clock time = 11.407150, Prod time: 0.0000000114071503, x = 1000000000.000000
+wall clock time = 11.419412, Prod time: 0.0000000114194117, x = 1000000000.000000
+wall clock time = 11.415105, Prod time: 0.0000000114151049, x = 1000000000.000000
+wall clock time = 11.439810, Prod time: 0.0000000114398103, x = 1000000000.000000
+wall clock time = 11.451300, Prod time: 0.0000000114513001, x = 1000000000.000000
+wall clock time = 11.440389, Prod time: 0.0000000114403889, x = 1000000000.000000
+wall clock time = 11.448615, Prod time: 0.0000000114486153, x = 1000000000.000000
+wall clock time = 11.461609, Prod time: 0.0000000114616091, x = 1000000000.000000
+wall clock time = 11.449043, Prod time: 0.0000000114490428, x = 1000000000.000000
+wall clock time = 11.458214, Prod time: 0.0000000114582140, x = 1000000000.000000
+wall clock time = 11.599558, Prod time: 0.0000000115995579, x = 1000000000.000000
+wall clock time = 11.599355, Prod time: 0.0000000115993552, x = 1000000000.000000
+wall clock time = 11.581427, Prod time: 0.0000000115814273, x = 1000000000.000000
+wall clock time = 11.600729, Prod time: 0.0000000116007288, x = 1000000000.000000
+wall clock time = 11.618278, Prod time: 0.0000000116182780, x = 1000000000.000000
+wall clock time = 11.627172, Prod time: 0.0000000116271722, x = 1000000000.000000
+wall clock time = 11.607247, Prod time: 0.0000000116072466, x = 1000000000.000000
+wall clock time = 11.603097, Prod time: 0.0000000116030974, x = 1000000000.000000
+wall clock time = 11.636783, Prod time: 0.0000000116367834, x = 1000000000.000000
+wall clock time = 11.625450, Prod time: 0.0000000116254499, x = 1000000000.000000
+wall clock time = 11.671947, Prod time: 0.0000000116719465, x = 1000000000.000000
+wall clock time = 11.614248, Prod time: 0.0000000116142480, x = 1000000000.000000
+wall clock time = 11.851346, Prod time: 0.0000000118513460, x = 1000000000.000000
+wall clock time = 11.871144, Prod time: 0.0000000118711443, x = 1000000000.000000
+wall clock time = 11.851888, Prod time: 0.0000000118518884, x = 1000000000.000000
+wall clock time = 11.874331, Prod time: 0.0000000118743310, x = 1000000000.000000
+wall clock time = 11.869181, Prod time: 0.0000000118691812, x = 1000000000.000000
+wall clock time = 11.892771, Prod time: 0.0000000118927710, x = 1000000000.000000
+wall clock time = 11.973316, Prod time: 0.0000000119733157, x = 1000000000.000000
+wall clock time = 12.054153, Prod time: 0.0000000120541532, x = 1000000000.000000
+Process 3 of 64 on pavel-Desktop
+Process 16 of 64 on pavel-Desktop
+Process 17 of 64 on pavel-Desktop
+Process 23 of 64 on pavel-Desktop
+Process 28 of 64 on pavel-Desktop
+Process 29 of 64 on pavel-Desktop
+Process 37 of 64 on pavel-Desktop
+Process 42 of 64 on pavel-Desktop
+Process 43 of 64 on pavel-Desktop
+Process 46 of 64 on pavel-Desktop
+Process 49 of 64 on pavel-Desktop
+Process 58 of 64 on pavel-Desktop
+Process 61 of 64 on pavel-Desktop
+Process 40 of 64 on pavel-Desktop
+Process 54 of 64 on pavel-Desktop
+Process 53 of 64 on pavel-Desktop
+Process 9 of 64 on pavel-Desktop
+Process 51 of 64 on pavel-Desktop
+Process 55 of 64 on pavel-Desktop
+Process 44 of 64 on pavel-Desktop
+Process 38 of 64 on pavel-Desktop
+Process 41 of 64 on pavel-Desktop
+Process 47 of 64 on pavel-Desktop
+Process 50 of 64 on pavel-Desktop
+Process 4 of 64 on pavel-Desktop
+Process 11 of 64 on pavel-Desktop
+Process 13 of 64 on pavel-Desktop
+Process 30 of 64 on pavel-Desktop
+Process 2 of 64 on pavel-Desktop
+Process 6 of 64 on pavel-Desktop
+Process 34 of 64 on pavel-Desktop
+Process 48 of 64 on pavel-Desktop
+Process 20 of 64 on pavel-Desktop
+Process 22 of 64 on pavel-Desktop
+Process 32 of 64 on pavel-Desktop
+Process 10 of 64 on pavel-Desktop
+Process 25 of 64 on pavel-Desktop
+Process 15 of 64 on pavel-Desktop
+Process 12 of 64 on pavel-Desktop
+Process 60 of 64 on pavel-Desktop
+Process 33 of 64 on pavel-Desktop
+Process 14 of 64 on pavel-Desktop
+Process 36 of 64 on pavel-Desktop
+Process 57 of 64 on pavel-Desktop
+Process 56 of 64 on pavel-Desktop
+Process 19 of 64 on pavel-Desktop
+Process 0 of 64 on pavel-Desktop
+Process 52 of 64 on pavel-Desktop
+Process 35 of 64 on pavel-Desktop
+Process 63 of 64 on pavel-Desktop
+Process 21 of 64 on pavel-Desktop
+Process 8 of 64 on pavel-Desktop
+Process 45 of 64 on pavel-Desktop
+Process 24 of 64 on pavel-Desktop
+Process 27 of 64 on pavel-Desktop
+Process 62 of 64 on pavel-Desktop
+Process 18 of 64 on pavel-Desktop
+Process 7 of 64 on pavel-Desktop
+Process 31 of 64 on pavel-Desktop
+Process 59 of 64 on pavel-Desktop
+Process 26 of 64 on pavel-Desktop
+Process 39 of 64 on pavel-Desktop
+Process 5 of 64 on pavel-Desktop
+Process 1 of 64 on pavel-Desktop
+wall clock time = 21.370651, Prod time: 0.0000000213706505, x = 1000000000.000000
+wall clock time = 21.387759, Prod time: 0.0000000213877592, x = 1000000000.000000
+wall clock time = 21.401880, Prod time: 0.0000000214018798, x = 1000000000.000000
+wall clock time = 21.415434, Prod time: 0.0000000214154339, x = 1000000000.000000
+wall clock time = 21.393859, Prod time: 0.0000000213938591, x = 1000000000.000000
+wall clock time = 21.387964, Prod time: 0.0000000213879635, x = 1000000000.000000
+wall clock time = 21.425311, Prod time: 0.0000000214253111, x = 1000000000.000000
+wall clock time = 21.414798, Prod time: 0.0000000214147985, x = 1000000000.000000
+wall clock time = 21.411928, Prod time: 0.0000000214119277, x = 1000000000.000000
+wall clock time = 21.423658, Prod time: 0.0000000214236584, x = 1000000000.000000
+wall clock time = 21.409759, Prod time: 0.0000000214097586, x = 1000000000.000000
+wall clock time = 21.452339, Prod time: 0.0000000214523392, x = 1000000000.000000
+wall clock time = 21.415712, Prod time: 0.0000000214157116, x = 1000000000.000000
+wall clock time = 21.479574, Prod time: 0.0000000214795737, x = 1000000000.000000
+wall clock time = 21.454926, Prod time: 0.0000000214549263, x = 1000000000.000000
+wall clock time = 22.810773, Prod time: 0.0000000228107731, x = 1000000000.000000
+wall clock time = 22.829715, Prod time: 0.0000000228297155, x = 1000000000.000000
+wall clock time = 22.825892, Prod time: 0.0000000228258920, x = 1000000000.000000
+wall clock time = 22.826661, Prod time: 0.0000000228266606, x = 1000000000.000000
+wall clock time = 22.844722, Prod time: 0.0000000228447216, x = 1000000000.000000
+wall clock time = 22.854205, Prod time: 0.0000000228542049, x = 1000000000.000000
+wall clock time = 22.888311, Prod time: 0.0000000228883111, x = 1000000000.000000
+wall clock time = 22.897017, Prod time: 0.0000000228970168, x = 1000000000.000000
+wall clock time = 22.987174, Prod time: 0.0000000229871738, x = 1000000000.000000
+wall clock time = 22.929031, Prod time: 0.0000000229290309, x = 1000000000.000000
+wall clock time = 23.024216, Prod time: 0.0000000230242162, x = 1000000000.000000
+wall clock time = 22.919026, Prod time: 0.0000000229190264, x = 1000000000.000000
+wall clock time = 23.050976, Prod time: 0.0000000230509760, x = 1000000000.000000
+wall clock time = 23.077728, Prod time: 0.0000000230777283, x = 1000000000.000000
+wall clock time = 23.091865, Prod time: 0.0000000230918648, x = 1000000000.000000
+wall clock time = 23.092900, Prod time: 0.0000000230929000, x = 1000000000.000000
+wall clock time = 23.359685, Prod time: 0.0000000233596852, x = 1000000000.000000
+wall clock time = 23.381825, Prod time: 0.0000000233818252, x = 1000000000.000000
+wall clock time = 23.421159, Prod time: 0.0000000234211586, x = 1000000000.000000
+wall clock time = 23.425770, Prod time: 0.0000000234257696, x = 1000000000.000000
+wall clock time = 23.415621, Prod time: 0.0000000234156208, x = 1000000000.000000
+wall clock time = 23.432998, Prod time: 0.0000000234329982, x = 1000000000.000000
+wall clock time = 23.418329, Prod time: 0.0000000234183292, x = 1000000000.000000
+wall clock time = 23.482866, Prod time: 0.0000000234828660, x = 1000000000.000000
+wall clock time = 23.520215, Prod time: 0.0000000235202146, x = 1000000000.000000
+wall clock time = 23.513447, Prod time: 0.0000000235134466, x = 1000000000.000000
+wall clock time = 23.429227, Prod time: 0.0000000234292269, x = 1000000000.000000
+wall clock time = 23.527723, Prod time: 0.0000000235277228, x = 1000000000.000000
+wall clock time = 23.556031, Prod time: 0.0000000235560312, x = 1000000000.000000
+wall clock time = 23.593335, Prod time: 0.0000000235933352, x = 1000000000.000000
+wall clock time = 23.549137, Prod time: 0.0000000235491369, x = 1000000000.000000
+wall clock time = 23.621369, Prod time: 0.0000000236213694, x = 1000000000.000000
+wall clock time = 24.423662, Prod time: 0.0000000244236622, x = 1000000000.000000
+wall clock time = 24.442825, Prod time: 0.0000000244428253, x = 1000000000.000000
+wall clock time = 24.461188, Prod time: 0.0000000244611876, x = 1000000000.000000
+wall clock time = 24.447847, Prod time: 0.0000000244478471, x = 1000000000.000000
+wall clock time = 24.457879, Prod time: 0.0000000244578793, x = 1000000000.000000
+wall clock time = 24.458326, Prod time: 0.0000000244583261, x = 1000000000.000000
+wall clock time = 24.454700, Prod time: 0.0000000244546998, x = 1000000000.000000
+wall clock time = 24.506718, Prod time: 0.0000000245067177, x = 1000000000.000000
+wall clock time = 24.491769, Prod time: 0.0000000244917693, x = 1000000000.000000
+wall clock time = 24.493402, Prod time: 0.0000000244934022, x = 1000000000.000000
+wall clock time = 24.518491, Prod time: 0.0000000245184908, x = 1000000000.000000
+wall clock time = 24.466754, Prod time: 0.0000000244667542, x = 1000000000.000000
+wall clock time = 24.528331, Prod time: 0.0000000245283306, x = 1000000000.000000
+wall clock time = 24.483705, Prod time: 0.0000000244837046, x = 1000000000.000000
+wall clock time = 24.543555, Prod time: 0.0000000245435545, x = 1000000000.000000
+wall clock time = 24.595067, Prod time: 0.0000000245950665, x = 1000000000.000000
+wall clock time = 24.589146, Prod time: 0.0000000245891459, x = 1000000000.000000
+Process 36 of 128 on pavel-Desktop
+Process 76 of 128 on pavel-Desktop
+Process 12 of 128 on pavel-Desktop
+Process 48 of 128 on pavel-Desktop
+Process 106 of 128 on pavel-Desktop
+Process 59 of 128 on pavel-Desktop
+Process 121 of 128 on pavel-Desktop
+Process 122 of 128 on pavel-Desktop
+Process 112 of 128 on pavel-Desktop
+Process 124 of 128 on pavel-Desktop
+Process 107 of 128 on pavel-Desktop
+Process 110 of 128 on pavel-Desktop
+Process 120 of 128 on pavel-Desktop
+Process 77 of 128 on pavel-Desktop
+Process 79 of 128 on pavel-Desktop
+Process 108 of 128 on pavel-Desktop
+Process 117 of 128 on pavel-Desktop
+Process 50 of 128 on pavel-Desktop
+Process 126 of 128 on pavel-Desktop
+Process 75 of 128 on pavel-Desktop
+Process 94 of 128 on pavel-Desktop
+Process 55 of 128 on pavel-Desktop
+Process 6 of 128 on pavel-Desktop
+Process 3 of 128 on pavel-Desktop
+Process 113 of 128 on pavel-Desktop
+Process 11 of 128 on pavel-Desktop
+Process 111 of 128 on pavel-Desktop
+Process 109 of 128 on pavel-Desktop
+Process 25 of 128 on pavel-Desktop
+Process 67 of 128 on pavel-Desktop
+Process 89 of 128 on pavel-Desktop
+Process 99 of 128 on pavel-Desktop
+Process 84 of 128 on pavel-Desktop
+Process 123 of 128 on pavel-Desktop
+Process 62 of 128 on pavel-Desktop
+Process 78 of 128 on pavel-Desktop
+Process 29 of 128 on pavel-Desktop
+Process 95 of 128 on pavel-Desktop
+Process 115 of 128 on pavel-Desktop
+Process 58 of 128 on pavel-Desktop
+Process 96 of 128 on pavel-Desktop
+Process 37 of 128 on pavel-Desktop
+Process 40 of 128 on pavel-Desktop
+Process 20 of 128 on pavel-Desktop
+Process 49 of 128 on pavel-Desktop
+Process 69 of 128 on pavel-Desktop
+Process 85 of 128 on pavel-Desktop
+Process 13 of 128 on pavel-Desktop
+Process 125 of 128 on pavel-Desktop
+Process 38 of 128 on pavel-Desktop
+Process 52 of 128 on pavel-Desktop
+Process 35 of 128 on pavel-Desktop
+Process 102 of 128 on pavel-Desktop
+Process 42 of 128 on pavel-Desktop
+Process 14 of 128 on pavel-Desktop
+Process 86 of 128 on pavel-Desktop
+Process 64 of 128 on pavel-Desktop
+Process 39 of 128 on pavel-Desktop
+Process 71 of 128 on pavel-Desktop
+Process 8 of 128 on pavel-Desktop
+Process 83 of 128 on pavel-Desktop
+Process 7 of 128 on pavel-Desktop
+Process 22 of 128 on pavel-Desktop
+Process 74 of 128 on pavel-Desktop
+Process 46 of 128 on pavel-Desktop
+Process 30 of 128 on pavel-Desktop
+Process 60 of 128 on pavel-Desktop
+Process 9 of 128 on pavel-Desktop
+Process 21 of 128 on pavel-Desktop
+Process 45 of 128 on pavel-Desktop
+Process 82 of 128 on pavel-Desktop
+Process 27 of 128 on pavel-Desktop
+Process 41 of 128 on pavel-Desktop
+Process 70 of 128 on pavel-Desktop
+Process 63 of 128 on pavel-Desktop
+Process 28 of 128 on pavel-Desktop
+Process 72 of 128 on pavel-Desktop
+Process 56 of 128 on pavel-Desktop
+Process 73 of 128 on pavel-Desktop
+Process 19 of 128 on pavel-Desktop
+Process 65 of 128 on pavel-Desktop
+Process 32 of 128 on pavel-Desktop
+Process 116 of 128 on pavel-Desktop
+Process 26 of 128 on pavel-Desktop
+Process 31 of 128 on pavel-Desktop
+Process 18 of 128 on pavel-Desktop
+Process 81 of 128 on pavel-Desktop
+Process 47 of 128 on pavel-Desktop
+Process 51 of 128 on pavel-Desktop
+Process 80 of 128 on pavel-Desktop
+Process 44 of 128 on pavel-Desktop
+Process 17 of 128 on pavel-Desktop
+Process 104 of 128 on pavel-Desktop
+Process 54 of 128 on pavel-Desktop
+Process 68 of 128 on pavel-Desktop
+Process 16 of 128 on pavel-Desktop
+Process 90 of 128 on pavel-Desktop
+Process 0 of 128 on pavel-Desktop
+Process 33 of 128 on pavel-Desktop
+Process 34 of 128 on pavel-Desktop
+Process 43 of 128 on pavel-Desktop
+Process 66 of 128 on pavel-Desktop
+Process 15 of 128 on pavel-Desktop
+Process 100 of 128 on pavel-Desktop
+Process 5 of 128 on pavel-Desktop
+Process 57 of 128 on pavel-Desktop
+Process 118 of 128 on pavel-Desktop
+Process 98 of 128 on pavel-Desktop
+Process 114 of 128 on pavel-Desktop
+Process 2 of 128 on pavel-Desktop
+Process 92 of 128 on pavel-Desktop
+Process 119 of 128 on pavel-Desktop
+Process 23 of 128 on pavel-Desktop
+Process 101 of 128 on pavel-Desktop
+Process 61 of 128 on pavel-Desktop
+Process 1 of 128 on pavel-Desktop
+Process 87 of 128 on pavel-Desktop
+Process 105 of 128 on pavel-Desktop
+Process 10 of 128 on pavel-Desktop
+Process 97 of 128 on pavel-Desktop
+Process 53 of 128 on pavel-Desktop
+Process 91 of 128 on pavel-Desktop
+Process 93 of 128 on pavel-Desktop
+Process 24 of 128 on pavel-Desktop
+Process 127 of 128 on pavel-Desktop
+Process 88 of 128 on pavel-Desktop
+Process 103 of 128 on pavel-Desktop
+Process 4 of 128 on pavel-Desktop
+wall clock time = 43.055165, Prod time: 0.0000000430551646, x = 1000000000.000000
+wall clock time = 43.098531, Prod time: 0.0000000430985305, x = 1000000000.000000
+wall clock time = 43.104437, Prod time: 0.0000000431044369, x = 1000000000.000000
+wall clock time = 43.128812, Prod time: 0.0000000431288116, x = 1000000000.000000
+wall clock time = 43.081878, Prod time: 0.0000000430818779, x = 1000000000.000000
+wall clock time = 43.104857, Prod time: 0.0000000431048570, x = 1000000000.000000
+wall clock time = 43.102377, Prod time: 0.0000000431023767, x = 1000000000.000000
+wall clock time = 43.144637, Prod time: 0.0000000431446366, x = 1000000000.000000
+wall clock time = 43.113818, Prod time: 0.0000000431138182, x = 1000000000.000000
+wall clock time = 43.137506, Prod time: 0.0000000431375060, x = 1000000000.000000
+wall clock time = 43.094495, Prod time: 0.0000000430944948, x = 1000000000.000000
+wall clock time = 43.152841, Prod time: 0.0000000431528409, x = 1000000000.000000
+wall clock time = 43.160371, Prod time: 0.0000000431603711, x = 1000000000.000000
+wall clock time = 43.136627, Prod time: 0.0000000431366270, x = 1000000000.000000
+wall clock time = 43.158376, Prod time: 0.0000000431583762, x = 1000000000.000000
+wall clock time = 43.107287, Prod time: 0.0000000431072872, x = 1000000000.000000
+wall clock time = 43.152688, Prod time: 0.0000000431526875, x = 1000000000.000000
+wall clock time = 43.084616, Prod time: 0.0000000430846162, x = 1000000000.000000
+wall clock time = 43.141097, Prod time: 0.0000000431410971, x = 1000000000.000000
+wall clock time = 43.106777, Prod time: 0.0000000431067767, x = 1000000000.000000
+wall clock time = 43.106144, Prod time: 0.0000000431061444, x = 1000000000.000000
+wall clock time = 43.169022, Prod time: 0.0000000431690221, x = 1000000000.000000
+wall clock time = 43.146692, Prod time: 0.0000000431466916, x = 1000000000.000000
+wall clock time = 43.185457, Prod time: 0.0000000431854575, x = 1000000000.000000
+wall clock time = 43.160535, Prod time: 0.0000000431605349, x = 1000000000.000000
+wall clock time = 43.204243, Prod time: 0.0000000432042427, x = 1000000000.000000
+wall clock time = 43.113993, Prod time: 0.0000000431139934, x = 1000000000.000000
+wall clock time = 43.211675, Prod time: 0.0000000432116752, x = 1000000000.000000
+wall clock time = 43.195579, Prod time: 0.0000000431955791, x = 1000000000.000000
+wall clock time = 43.156589, Prod time: 0.0000000431565893, x = 1000000000.000000
+wall clock time = 46.042410, Prod time: 0.0000000460424101, x = 1000000000.000000
+wall clock time = 45.991161, Prod time: 0.0000000459911613, x = 1000000000.000000
+wall clock time = 46.035353, Prod time: 0.0000000460353534, x = 1000000000.000000
+wall clock time = 45.991894, Prod time: 0.0000000459918940, x = 1000000000.000000
+wall clock time = 46.072331, Prod time: 0.0000000460723310, x = 1000000000.000000
+wall clock time = 46.041922, Prod time: 0.0000000460419221, x = 1000000000.000000
+wall clock time = 46.038921, Prod time: 0.0000000460389214, x = 1000000000.000000
+wall clock time = 46.066226, Prod time: 0.0000000460662262, x = 1000000000.000000
+wall clock time = 46.017308, Prod time: 0.0000000460173080, x = 1000000000.000000
+wall clock time = 46.090729, Prod time: 0.0000000460907288, x = 1000000000.000000
+wall clock time = 46.112429, Prod time: 0.0000000461124291, x = 1000000000.000000
+wall clock time = 46.090664, Prod time: 0.0000000460906641, x = 1000000000.000000
+wall clock time = 46.033310, Prod time: 0.0000000460333099, x = 1000000000.000000
+wall clock time = 46.054185, Prod time: 0.0000000460541849, x = 1000000000.000000
+wall clock time = 46.062072, Prod time: 0.0000000460620720, x = 1000000000.000000
+wall clock time = 46.124489, Prod time: 0.0000000461244886, x = 1000000000.000000
+wall clock time = 46.129164, Prod time: 0.0000000461291637, x = 1000000000.000000
+wall clock time = 46.077343, Prod time: 0.0000000460773435, x = 1000000000.000000
+wall clock time = 46.118670, Prod time: 0.0000000461186700, x = 1000000000.000000
+wall clock time = 46.123699, Prod time: 0.0000000461236987, x = 1000000000.000000
+wall clock time = 46.182090, Prod time: 0.0000000461820896, x = 1000000000.000000
+wall clock time = 46.191151, Prod time: 0.0000000461911509, x = 1000000000.000000
+wall clock time = 46.107877, Prod time: 0.0000000461078773, x = 1000000000.000000
+wall clock time = 46.112328, Prod time: 0.0000000461123283, x = 1000000000.000000
+wall clock time = 46.136745, Prod time: 0.0000000461367450, x = 1000000000.000000
+wall clock time = 46.112976, Prod time: 0.0000000461129756, x = 1000000000.000000
+wall clock time = 46.230342, Prod time: 0.0000000462303421, x = 1000000000.000000
+wall clock time = 46.135160, Prod time: 0.0000000461351597, x = 1000000000.000000
+wall clock time = 46.282421, Prod time: 0.0000000462824211, x = 1000000000.000000
+wall clock time = 46.274453, Prod time: 0.0000000462744529, x = 1000000000.000000
+wall clock time = 46.114179, Prod time: 0.0000000461141791, x = 1000000000.000000
+wall clock time = 46.274527, Prod time: 0.0000000462745268, x = 1000000000.000000
+wall clock time = 46.267050, Prod time: 0.0000000462670498, x = 1000000000.000000
+wall clock time = 46.308369, Prod time: 0.0000000463083687, x = 1000000000.000000
+wall clock time = 46.264355, Prod time: 0.0000000462643549, x = 1000000000.000000
+wall clock time = 46.259882, Prod time: 0.0000000462598822, x = 1000000000.000000
+wall clock time = 46.329028, Prod time: 0.0000000463290277, x = 1000000000.000000
+wall clock time = 46.324642, Prod time: 0.0000000463246422, x = 1000000000.000000
+wall clock time = 46.231544, Prod time: 0.0000000462315438, x = 1000000000.000000
+wall clock time = 46.304237, Prod time: 0.0000000463042369, x = 1000000000.000000
+wall clock time = 46.339671, Prod time: 0.0000000463396711, x = 1000000000.000000
+wall clock time = 46.310612, Prod time: 0.0000000463106122, x = 1000000000.000000
+wall clock time = 46.335243, Prod time: 0.0000000463352425, x = 1000000000.000000
+wall clock time = 46.318690, Prod time: 0.0000000463186903, x = 1000000000.000000
+wall clock time = 46.302309, Prod time: 0.0000000463023086, x = 1000000000.000000
+wall clock time = 46.354244, Prod time: 0.0000000463542442, x = 1000000000.000000
+wall clock time = 46.359261, Prod time: 0.0000000463592608, x = 1000000000.000000
+wall clock time = 46.348995, Prod time: 0.0000000463489947, x = 1000000000.000000
+wall clock time = 46.325716, Prod time: 0.0000000463257165, x = 1000000000.000000
+wall clock time = 46.331737, Prod time: 0.0000000463317368, x = 1000000000.000000
+wall clock time = 46.357133, Prod time: 0.0000000463571329, x = 1000000000.000000
+wall clock time = 46.352621, Prod time: 0.0000000463526213, x = 1000000000.000000
+wall clock time = 46.287786, Prod time: 0.0000000462877865, x = 1000000000.000000
+wall clock time = 46.379997, Prod time: 0.0000000463799968, x = 1000000000.000000
+wall clock time = 46.372318, Prod time: 0.0000000463723183, x = 1000000000.000000
+wall clock time = 46.386426, Prod time: 0.0000000463864260, x = 1000000000.000000
+wall clock time = 46.396023, Prod time: 0.0000000463960230, x = 1000000000.000000
+wall clock time = 46.315207, Prod time: 0.0000000463152068, x = 1000000000.000000
+wall clock time = 46.410835, Prod time: 0.0000000464108348, x = 1000000000.000000
+wall clock time = 46.460986, Prod time: 0.0000000464609861, x = 1000000000.000000
+wall clock time = 46.349100, Prod time: 0.0000000463491001, x = 1000000000.000000
+wall clock time = 46.426679, Prod time: 0.0000000464266794, x = 1000000000.000000
+wall clock time = 48.551134, Prod time: 0.0000000485511343, x = 1000000000.000000
+wall clock time = 48.546943, Prod time: 0.0000000485469434, x = 1000000000.000000
+wall clock time = 48.530497, Prod time: 0.0000000485304973, x = 1000000000.000000
+wall clock time = 48.506388, Prod time: 0.0000000485063884, x = 1000000000.000000
+wall clock time = 48.561536, Prod time: 0.0000000485615356, x = 1000000000.000000
+wall clock time = 48.524030, Prod time: 0.0000000485240300, x = 1000000000.000000
+wall clock time = 48.578993, Prod time: 0.0000000485789928, x = 1000000000.000000
+wall clock time = 48.569039, Prod time: 0.0000000485690391, x = 1000000000.000000
+wall clock time = 48.570580, Prod time: 0.0000000485705798, x = 1000000000.000000
+wall clock time = 48.541618, Prod time: 0.0000000485416183, x = 1000000000.000000
+wall clock time = 48.606693, Prod time: 0.0000000486066926, x = 1000000000.000000
+wall clock time = 48.509402, Prod time: 0.0000000485094016, x = 1000000000.000000
+wall clock time = 48.539603, Prod time: 0.0000000485396035, x = 1000000000.000000
+wall clock time = 48.557877, Prod time: 0.0000000485578773, x = 1000000000.000000
+wall clock time = 48.514145, Prod time: 0.0000000485141454, x = 1000000000.000000
+wall clock time = 48.505002, Prod time: 0.0000000485050020, x = 1000000000.000000
+wall clock time = 48.518084, Prod time: 0.0000000485180838, x = 1000000000.000000
+wall clock time = 48.595336, Prod time: 0.0000000485953357, x = 1000000000.000000
+wall clock time = 48.537338, Prod time: 0.0000000485373375, x = 1000000000.000000
+wall clock time = 48.542771, Prod time: 0.0000000485427706, x = 1000000000.000000
+wall clock time = 48.585031, Prod time: 0.0000000485850313, x = 1000000000.000000
+wall clock time = 48.634653, Prod time: 0.0000000486346531, x = 1000000000.000000
+wall clock time = 48.576706, Prod time: 0.0000000485767062, x = 1000000000.000000
+wall clock time = 48.530870, Prod time: 0.0000000485308697, x = 1000000000.000000
+wall clock time = 48.571934, Prod time: 0.0000000485719342, x = 1000000000.000000
+wall clock time = 48.556555, Prod time: 0.0000000485565550, x = 1000000000.000000
+wall clock time = 48.620919, Prod time: 0.0000000486209192, x = 1000000000.000000
+wall clock time = 48.546773, Prod time: 0.0000000485467734, x = 1000000000.000000
+wall clock time = 48.583384, Prod time: 0.0000000485833836, x = 1000000000.000000
+wall clock time = 48.627615, Prod time: 0.0000000486276150, x = 1000000000.000000
+wall clock time = 48.611910, Prod time: 0.0000000486119103, x = 1000000000.000000
+wall clock time = 48.548998, Prod time: 0.0000000485489976, x = 1000000000.000000
+wall clock time = 48.620876, Prod time: 0.0000000486208763, x = 1000000000.000000
+wall clock time = 48.625978, Prod time: 0.0000000486259782, x = 1000000000.000000
+wall clock time = 60.099251, Prod time: 0.0000000600992510, x = 1000000000.000000
+wall clock time = 62.275657, Prod time: 0.0000000622756569, x = 1000000000.000000
+Process 38 of 256 on pavel-Desktop
+Process 96 of 256 on pavel-Desktop
+Process 181 of 256 on pavel-Desktop
+Process 222 of 256 on pavel-Desktop
+Process 136 of 256 on pavel-Desktop
+Process 143 of 256 on pavel-Desktop
+Process 157 of 256 on pavel-Desktop
+Process 97 of 256 on pavel-Desktop
+Process 44 of 256 on pavel-Desktop
+Process 68 of 256 on pavel-Desktop
+Process 224 of 256 on pavel-Desktop
+Process 156 of 256 on pavel-Desktop
+Process 163 of 256 on pavel-Desktop
+Process 184 of 256 on pavel-Desktop
+Process 152 of 256 on pavel-Desktop
+Process 183 of 256 on pavel-Desktop
+Process 50 of 256 on pavel-Desktop
+Process 101 of 256 on pavel-Desktop
+Process 225 of 256 on pavel-Desktop
+Process 110 of 256 on pavel-Desktop
+Process 93 of 256 on pavel-Desktop
+Process 164 of 256 on pavel-Desktop
+Process 192 of 256 on pavel-Desktop
+Process 147 of 256 on pavel-Desktop
+Process 55 of 256 on pavel-Desktop
+Process 149 of 256 on pavel-Desktop
+Process 227 of 256 on pavel-Desktop
+Process 196 of 256 on pavel-Desktop
+Process 20 of 256 on pavel-Desktop
+Process 132 of 256 on pavel-Desktop
+Process 251 of 256 on pavel-Desktop
+Process 2 of 256 on pavel-Desktop
+Process 25 of 256 on pavel-Desktop
+Process 217 of 256 on pavel-Desktop
+Process 3 of 256 on pavel-Desktop
+Process 120 of 256 on pavel-Desktop
+Process 223 of 256 on pavel-Desktop
+Process 239 of 256 on pavel-Desktop
+Process 41 of 256 on pavel-Desktop
+Process 189 of 256 on pavel-Desktop
+Process 112 of 256 on pavel-Desktop
+Process 182 of 256 on pavel-Desktop
+Process 39 of 256 on pavel-Desktop
+Process 88 of 256 on pavel-Desktop
+Process 125 of 256 on pavel-Desktop
+Process 85 of 256 on pavel-Desktop
+Process 49 of 256 on pavel-Desktop
+Process 141 of 256 on pavel-Desktop
+Process 108 of 256 on pavel-Desktop
+Process 58 of 256 on pavel-Desktop
+Process 206 of 256 on pavel-Desktop
+Process 51 of 256 on pavel-Desktop
+Process 117 of 256 on pavel-Desktop
+Process 142 of 256 on pavel-Desktop
+Process 90 of 256 on pavel-Desktop
+Process 65 of 256 on pavel-Desktop
+Process 11 of 256 on pavel-Desktop
+Process 188 of 256 on pavel-Desktop
+Process 59 of 256 on pavel-Desktop
+Process 5 of 256 on pavel-Desktop
+Process 16 of 256 on pavel-Desktop
+Process 19 of 256 on pavel-Desktop
+Process 52 of 256 on pavel-Desktop
+Process 53 of 256 on pavel-Desktop
+Process 87 of 256 on pavel-Desktop
+Process 106 of 256 on pavel-Desktop
+Process 166 of 256 on pavel-Desktop
+Process 216 of 256 on pavel-Desktop
+Process 7 of 256 on pavel-Desktop
+Process 9 of 256 on pavel-Desktop
+Process 13 of 256 on pavel-Desktop
+Process 36 of 256 on pavel-Desktop
+Process 62 of 256 on pavel-Desktop
+Process 77 of 256 on pavel-Desktop
+Process 81 of 256 on pavel-Desktop
+Process 83 of 256 on pavel-Desktop
+Process 89 of 256 on pavel-Desktop
+Process 113 of 256 on pavel-Desktop
+Process 138 of 256 on pavel-Desktop
+Process 145 of 256 on pavel-Desktop
+Process 146 of 256 on pavel-Desktop
+Process 155 of 256 on pavel-Desktop
+Process 173 of 256 on pavel-Desktop
+Process 185 of 256 on pavel-Desktop
+Process 191 of 256 on pavel-Desktop
+Process 193 of 256 on pavel-Desktop
+Process 195 of 256 on pavel-Desktop
+Process 198 of 256 on pavel-Desktop
+Process 236 of 256 on pavel-Desktop
+Process 237 of 256 on pavel-Desktop
+Process 241 of 256 on pavel-Desktop
+Process 244 of 256 on pavel-Desktop
+Process 252 of 256 on pavel-Desktop
+Process 10 of 256 on pavel-Desktop
+Process 37 of 256 on pavel-Desktop
+Process 54 of 256 on pavel-Desktop
+Process 57 of 256 on pavel-Desktop
+Process 60 of 256 on pavel-Desktop
+Process 64 of 256 on pavel-Desktop
+Process 67 of 256 on pavel-Desktop
+Process 70 of 256 on pavel-Desktop
+Process 91 of 256 on pavel-Desktop
+Process 100 of 256 on pavel-Desktop
+Process 105 of 256 on pavel-Desktop
+Process 115 of 256 on pavel-Desktop
+Process 116 of 256 on pavel-Desktop
+Process 127 of 256 on pavel-Desktop
+Process 139 of 256 on pavel-Desktop
+Process 144 of 256 on pavel-Desktop
+Process 154 of 256 on pavel-Desktop
+Process 169 of 256 on pavel-Desktop
+Process 170 of 256 on pavel-Desktop
+Process 180 of 256 on pavel-Desktop
+Process 194 of 256 on pavel-Desktop
+Process 197 of 256 on pavel-Desktop
+Process 201 of 256 on pavel-Desktop
+Process 202 of 256 on pavel-Desktop
+Process 208 of 256 on pavel-Desktop
+Process 219 of 256 on pavel-Desktop
+Process 230 of 256 on pavel-Desktop
+Process 231 of 256 on pavel-Desktop
+Process 245 of 256 on pavel-Desktop
+Process 249 of 256 on pavel-Desktop
+Process 0 of 256 on pavel-Desktop
+Process 4 of 256 on pavel-Desktop
+Process 12 of 256 on pavel-Desktop
+Process 14 of 256 on pavel-Desktop
+Process 22 of 256 on pavel-Desktop
+Process 24 of 256 on pavel-Desktop
+Process 27 of 256 on pavel-Desktop
+Process 31 of 256 on pavel-Desktop
+Process 33 of 256 on pavel-Desktop
+Process 35 of 256 on pavel-Desktop
+Process 56 of 256 on pavel-Desktop
+Process 61 of 256 on pavel-Desktop
+Process 75 of 256 on pavel-Desktop
+Process 76 of 256 on pavel-Desktop
+Process 82 of 256 on pavel-Desktop
+Process 95 of 256 on pavel-Desktop
+Process 99 of 256 on pavel-Desktop
+Process 119 of 256 on pavel-Desktop
+Process 121 of 256 on pavel-Desktop
+Process 122 of 256 on pavel-Desktop
+Process 124 of 256 on pavel-Desktop
+Process 126 of 256 on pavel-Desktop
+Process 128 of 256 on pavel-Desktop
+Process 134 of 256 on pavel-Desktop
+Process 137 of 256 on pavel-Desktop
+Process 150 of 256 on pavel-Desktop
+Process 158 of 256 on pavel-Desktop
+Process 161 of 256 on pavel-Desktop
+Process 162 of 256 on pavel-Desktop
+Process 165 of 256 on pavel-Desktop
+Process 174 of 256 on pavel-Desktop
+Process 175 of 256 on pavel-Desktop
+Process 187 of 256 on pavel-Desktop
+Process 199 of 256 on pavel-Desktop
+Process 200 of 256 on pavel-Desktop
+Process 204 of 256 on pavel-Desktop
+Process 205 of 256 on pavel-Desktop
+Process 210 of 256 on pavel-Desktop
+Process 213 of 256 on pavel-Desktop
+Process 246 of 256 on pavel-Desktop
+Process 247 of 256 on pavel-Desktop
+Process 248 of 256 on pavel-Desktop
+Process 253 of 256 on pavel-Desktop
+Process 254 of 256 on pavel-Desktop
+Process 6 of 256 on pavel-Desktop
+Process 18 of 256 on pavel-Desktop
+Process 28 of 256 on pavel-Desktop
+Process 29 of 256 on pavel-Desktop
+Process 30 of 256 on pavel-Desktop
+Process 40 of 256 on pavel-Desktop
+Process 47 of 256 on pavel-Desktop
+Process 48 of 256 on pavel-Desktop
+Process 63 of 256 on pavel-Desktop
+Process 66 of 256 on pavel-Desktop
+Process 69 of 256 on pavel-Desktop
+Process 72 of 256 on pavel-Desktop
+Process 73 of 256 on pavel-Desktop
+Process 74 of 256 on pavel-Desktop
+Process 78 of 256 on pavel-Desktop
+Process 79 of 256 on pavel-Desktop
+Process 80 of 256 on pavel-Desktop
+Process 84 of 256 on pavel-Desktop
+Process 86 of 256 on pavel-Desktop
+Process 92 of 256 on pavel-Desktop
+Process 94 of 256 on pavel-Desktop
+Process 98 of 256 on pavel-Desktop
+Process 102 of 256 on pavel-Desktop
+Process 104 of 256 on pavel-Desktop
+Process 109 of 256 on pavel-Desktop
+Process 111 of 256 on pavel-Desktop
+Process 114 of 256 on pavel-Desktop
+Process 123 of 256 on pavel-Desktop
+Process 129 of 256 on pavel-Desktop
+Process 131 of 256 on pavel-Desktop
+Process 133 of 256 on pavel-Desktop
+Process 140 of 256 on pavel-Desktop
+Process 148 of 256 on pavel-Desktop
+Process 151 of 256 on pavel-Desktop
+Process 153 of 256 on pavel-Desktop
+Process 159 of 256 on pavel-Desktop
+Process 167 of 256 on pavel-Desktop
+Process 168 of 256 on pavel-Desktop
+Process 171 of 256 on pavel-Desktop
+Process 172 of 256 on pavel-Desktop
+Process 177 of 256 on pavel-Desktop
+Process 179 of 256 on pavel-Desktop
+Process 186 of 256 on pavel-Desktop
+Process 190 of 256 on pavel-Desktop
+Process 212 of 256 on pavel-Desktop
+Process 214 of 256 on pavel-Desktop
+Process 215 of 256 on pavel-Desktop
+Process 218 of 256 on pavel-Desktop
+Process 220 of 256 on pavel-Desktop
+Process 221 of 256 on pavel-Desktop
+Process 226 of 256 on pavel-Desktop
+Process 228 of 256 on pavel-Desktop
+Process 229 of 256 on pavel-Desktop
+Process 232 of 256 on pavel-Desktop
+Process 233 of 256 on pavel-Desktop
+Process 234 of 256 on pavel-Desktop
+Process 235 of 256 on pavel-Desktop
+Process 242 of 256 on pavel-Desktop
+Process 243 of 256 on pavel-Desktop
+Process 250 of 256 on pavel-Desktop
+Process 255 of 256 on pavel-Desktop
+Process 1 of 256 on pavel-Desktop
+Process 23 of 256 on pavel-Desktop
+Process 46 of 256 on pavel-Desktop
+Process 71 of 256 on pavel-Desktop
+Process 118 of 256 on pavel-Desktop
+Process 130 of 256 on pavel-Desktop
+Process 203 of 256 on pavel-Desktop
+Process 211 of 256 on pavel-Desktop
+Process 238 of 256 on pavel-Desktop
+Process 240 of 256 on pavel-Desktop
+Process 107 of 256 on pavel-Desktop
+Process 160 of 256 on pavel-Desktop
+Process 178 of 256 on pavel-Desktop
+Process 207 of 256 on pavel-Desktop
+Process 26 of 256 on pavel-Desktop
+Process 34 of 256 on pavel-Desktop
+Process 135 of 256 on pavel-Desktop
+Process 176 of 256 on pavel-Desktop
+Process 21 of 256 on pavel-Desktop
+Process 32 of 256 on pavel-Desktop
+Process 42 of 256 on pavel-Desktop
+Process 209 of 256 on pavel-Desktop
+Process 103 of 256 on pavel-Desktop
+Process 17 of 256 on pavel-Desktop
+Process 43 of 256 on pavel-Desktop
+Process 45 of 256 on pavel-Desktop
+Process 8 of 256 on pavel-Desktop
+Process 15 of 256 on pavel-Desktop
+wall clock time = 85.587901, Prod time: 0.0000000855879009, x = 1000000000.000000
+wall clock time = 85.632532, Prod time: 0.0000000856325324, x = 1000000000.000000
+wall clock time = 85.630527, Prod time: 0.0000000856305270, x = 1000000000.000000
+wall clock time = 85.607591, Prod time: 0.0000000856075914, x = 1000000000.000000
+wall clock time = 85.627838, Prod time: 0.0000000856278384, x = 1000000000.000000
+wall clock time = 85.638946, Prod time: 0.0000000856389463, x = 1000000000.000000
+wall clock time = 85.623301, Prod time: 0.0000000856233010, x = 1000000000.000000
+wall clock time = 85.662581, Prod time: 0.0000000856625812, x = 1000000000.000000
+wall clock time = 85.696457, Prod time: 0.0000000856964569, x = 1000000000.000000
+wall clock time = 85.737894, Prod time: 0.0000000857378941, x = 1000000000.000000
+wall clock time = 85.658782, Prod time: 0.0000000856587825, x = 1000000000.000000
+wall clock time = 85.745426, Prod time: 0.0000000857454257, x = 1000000000.000000
+wall clock time = 85.755003, Prod time: 0.0000000857550032, x = 1000000000.000000
+wall clock time = 85.635018, Prod time: 0.0000000856350181, x = 1000000000.000000
+wall clock time = 85.756960, Prod time: 0.0000000857569604, x = 1000000000.000000
+wall clock time = 85.745279, Prod time: 0.0000000857452791, x = 1000000000.000000
+wall clock time = 85.656914, Prod time: 0.0000000856569140, x = 1000000000.000000
+wall clock time = 85.695299, Prod time: 0.0000000856952989, x = 1000000000.000000
+wall clock time = 85.749036, Prod time: 0.0000000857490361, x = 1000000000.000000
+wall clock time = 85.627707, Prod time: 0.0000000856277065, x = 1000000000.000000
+wall clock time = 85.717843, Prod time: 0.0000000857178433, x = 1000000000.000000
+wall clock time = 85.678281, Prod time: 0.0000000856782806, x = 1000000000.000000
+wall clock time = 85.603344, Prod time: 0.0000000856033444, x = 1000000000.000000
+wall clock time = 85.772944, Prod time: 0.0000000857729437, x = 1000000000.000000
+wall clock time = 85.742090, Prod time: 0.0000000857420895, x = 1000000000.000000
+wall clock time = 85.756776, Prod time: 0.0000000857567759, x = 1000000000.000000
+wall clock time = 85.826436, Prod time: 0.0000000858264360, x = 1000000000.000000
+wall clock time = 85.792385, Prod time: 0.0000000857923853, x = 1000000000.000000
+wall clock time = 85.690805, Prod time: 0.0000000856908052, x = 1000000000.000000
+wall clock time = 85.651722, Prod time: 0.0000000856517217, x = 1000000000.000000
+wall clock time = 85.780620, Prod time: 0.0000000857806203, x = 1000000000.000000
+wall clock time = 85.747924, Prod time: 0.0000000857479241, x = 1000000000.000000
+wall clock time = 85.769627, Prod time: 0.0000000857696271, x = 1000000000.000000
+wall clock time = 85.667519, Prod time: 0.0000000856675186, x = 1000000000.000000
+wall clock time = 85.730659, Prod time: 0.0000000857306590, x = 1000000000.000000
+wall clock time = 85.793557, Prod time: 0.0000000857935569, x = 1000000000.000000
+wall clock time = 85.831268, Prod time: 0.0000000858312681, x = 1000000000.000000
+wall clock time = 85.856666, Prod time: 0.0000000858566661, x = 1000000000.000000
+wall clock time = 85.774086, Prod time: 0.0000000857740865, x = 1000000000.000000
+wall clock time = 85.726671, Prod time: 0.0000000857266710, x = 1000000000.000000
+wall clock time = 85.731334, Prod time: 0.0000000857313340, x = 1000000000.000000
+wall clock time = 85.778248, Prod time: 0.0000000857782476, x = 1000000000.000000
+wall clock time = 85.828997, Prod time: 0.0000000858289967, x = 1000000000.000000
+wall clock time = 85.870385, Prod time: 0.0000000858703847, x = 1000000000.000000
+wall clock time = 85.821328, Prod time: 0.0000000858213284, x = 1000000000.000000
+wall clock time = 85.842411, Prod time: 0.0000000858424108, x = 1000000000.000000
+wall clock time = 85.809974, Prod time: 0.0000000858099737, x = 1000000000.000000
+wall clock time = 85.867938, Prod time: 0.0000000858679380, x = 1000000000.000000
+wall clock time = 85.789397, Prod time: 0.0000000857893965, x = 1000000000.000000
+wall clock time = 85.852909, Prod time: 0.0000000858529093, x = 1000000000.000000
+wall clock time = 85.809096, Prod time: 0.0000000858090959, x = 1000000000.000000
+wall clock time = 85.789176, Prod time: 0.0000000857891755, x = 1000000000.000000
+wall clock time = 85.941537, Prod time: 0.0000000859415371, x = 1000000000.000000
+wall clock time = 85.856892, Prod time: 0.0000000858568923, x = 1000000000.000000
+wall clock time = 85.840513, Prod time: 0.0000000858405125, x = 1000000000.000000
+wall clock time = 85.840732, Prod time: 0.0000000858407319, x = 1000000000.000000
+wall clock time = 85.891825, Prod time: 0.0000000858918250, x = 1000000000.000000
+wall clock time = 85.879906, Prod time: 0.0000000858799059, x = 1000000000.000000
+wall clock time = 85.868087, Prod time: 0.0000000858680873, x = 1000000000.000000
+wall clock time = 86.096721, Prod time: 0.0000000860967209, x = 1000000000.000000
+wall clock time = 88.611634, Prod time: 0.0000000886116343, x = 1000000000.000000
+wall clock time = 88.739567, Prod time: 0.0000000887395668, x = 1000000000.000000
+wall clock time = 88.751372, Prod time: 0.0000000887513719, x = 1000000000.000000
+wall clock time = 88.717732, Prod time: 0.0000000887177317, x = 1000000000.000000
+wall clock time = 88.759939, Prod time: 0.0000000887599387, x = 1000000000.000000
+wall clock time = 88.679675, Prod time: 0.0000000886796746, x = 1000000000.000000
+wall clock time = 88.783079, Prod time: 0.0000000887830794, x = 1000000000.000000
+wall clock time = 88.796717, Prod time: 0.0000000887967167, x = 1000000000.000000
+wall clock time = 88.818381, Prod time: 0.0000000888183811, x = 1000000000.000000
+wall clock time = 88.826594, Prod time: 0.0000000888265941, x = 1000000000.000000
+wall clock time = 88.842117, Prod time: 0.0000000888421173, x = 1000000000.000000
+wall clock time = 88.812928, Prod time: 0.0000000888129280, x = 1000000000.000000
+wall clock time = 88.822448, Prod time: 0.0000000888224480, x = 1000000000.000000
+wall clock time = 88.684687, Prod time: 0.0000000886846867, x = 1000000000.000000
+wall clock time = 88.832792, Prod time: 0.0000000888327923, x = 1000000000.000000
+wall clock time = 88.789368, Prod time: 0.0000000887893679, x = 1000000000.000000
+wall clock time = 88.859279, Prod time: 0.0000000888592794, x = 1000000000.000000
+wall clock time = 88.750518, Prod time: 0.0000000887505178, x = 1000000000.000000
+wall clock time = 88.843672, Prod time: 0.0000000888436718, x = 1000000000.000000
+wall clock time = 88.735013, Prod time: 0.0000000887350125, x = 1000000000.000000
+wall clock time = 88.775232, Prod time: 0.0000000887752321, x = 1000000000.000000
+wall clock time = 88.839615, Prod time: 0.0000000888396151, x = 1000000000.000000
+wall clock time = 88.726463, Prod time: 0.0000000887264631, x = 1000000000.000000
+wall clock time = 88.872591, Prod time: 0.0000000888725908, x = 1000000000.000000
+wall clock time = 88.898421, Prod time: 0.0000000888984208, x = 1000000000.000000
+wall clock time = 88.817889, Prod time: 0.0000000888178895, x = 1000000000.000000
+wall clock time = 88.791964, Prod time: 0.0000000887919641, x = 1000000000.000000
+wall clock time = 88.840728, Prod time: 0.0000000888407278, x = 1000000000.000000
+wall clock time = 88.799269, Prod time: 0.0000000887992694, x = 1000000000.000000
+wall clock time = 88.873322, Prod time: 0.0000000888733215, x = 1000000000.000000
+wall clock time = 88.789523, Prod time: 0.0000000887895226, x = 1000000000.000000
+wall clock time = 88.948123, Prod time: 0.0000000889481227, x = 1000000000.000000
+wall clock time = 88.884854, Prod time: 0.0000000888848543, x = 1000000000.000000
+wall clock time = 88.757741, Prod time: 0.0000000887577412, x = 1000000000.000000
+wall clock time = 88.869074, Prod time: 0.0000000888690741, x = 1000000000.000000
+wall clock time = 88.868688, Prod time: 0.0000000888686879, x = 1000000000.000000
+wall clock time = 88.728242, Prod time: 0.0000000887282419, x = 1000000000.000000
+wall clock time = 88.805747, Prod time: 0.0000000888057466, x = 1000000000.000000
+wall clock time = 88.841667, Prod time: 0.0000000888416672, x = 1000000000.000000
+wall clock time = 88.909234, Prod time: 0.0000000889092343, x = 1000000000.000000
+wall clock time = 88.979935, Prod time: 0.0000000889799349, x = 1000000000.000000
+wall clock time = 88.877165, Prod time: 0.0000000888771653, x = 1000000000.000000
+wall clock time = 88.873624, Prod time: 0.0000000888736238, x = 1000000000.000000
+wall clock time = 88.889219, Prod time: 0.0000000888892186, x = 1000000000.000000
+wall clock time = 88.928424, Prod time: 0.0000000889284239, x = 1000000000.000000
+wall clock time = 88.950853, Prod time: 0.0000000889508526, x = 1000000000.000000
+wall clock time = 88.873772, Prod time: 0.0000000888737721, x = 1000000000.000000
+wall clock time = 88.861846, Prod time: 0.0000000888618460, x = 1000000000.000000
+wall clock time = 88.909391, Prod time: 0.0000000889093912, x = 1000000000.000000
+wall clock time = 88.850007, Prod time: 0.0000000888500068, x = 1000000000.000000
+wall clock time = 88.862119, Prod time: 0.0000000888621190, x = 1000000000.000000
+wall clock time = 88.779564, Prod time: 0.0000000887795641, x = 1000000000.000000
+wall clock time = 88.948421, Prod time: 0.0000000889484212, x = 1000000000.000000
+wall clock time = 88.893712, Prod time: 0.0000000888937118, x = 1000000000.000000
+wall clock time = 88.775573, Prod time: 0.0000000887755730, x = 1000000000.000000
+wall clock time = 88.763529, Prod time: 0.0000000887635291, x = 1000000000.000000
+wall clock time = 88.956349, Prod time: 0.0000000889563487, x = 1000000000.000000
+wall clock time = 88.865577, Prod time: 0.0000000888655767, x = 1000000000.000000
+wall clock time = 88.923217, Prod time: 0.0000000889232166, x = 1000000000.000000
+wall clock time = 88.699500, Prod time: 0.0000000886995003, x = 1000000000.000000
+wall clock time = 88.952475, Prod time: 0.0000000889524753, x = 1000000000.000000
+wall clock time = 91.303032, Prod time: 0.0000000913030319, x = 1000000000.000000
+wall clock time = 91.314723, Prod time: 0.0000000913147235, x = 1000000000.000000
+wall clock time = 91.373818, Prod time: 0.0000000913738177, x = 1000000000.000000
+wall clock time = 91.347026, Prod time: 0.0000000913470259, x = 1000000000.000000
+wall clock time = 91.282416, Prod time: 0.0000000912824156, x = 1000000000.000000
+wall clock time = 91.372429, Prod time: 0.0000000913724287, x = 1000000000.000000
+wall clock time = 91.378898, Prod time: 0.0000000913788984, x = 1000000000.000000
+wall clock time = 91.346630, Prod time: 0.0000000913466296, x = 1000000000.000000
+wall clock time = 91.422607, Prod time: 0.0000000914226069, x = 1000000000.000000
+wall clock time = 91.417853, Prod time: 0.0000000914178529, x = 1000000000.000000
+wall clock time = 91.410808, Prod time: 0.0000000914108076, x = 1000000000.000000
+wall clock time = 91.464616, Prod time: 0.0000000914646161, x = 1000000000.000000
+wall clock time = 91.293492, Prod time: 0.0000000912934923, x = 1000000000.000000
+wall clock time = 91.459385, Prod time: 0.0000000914593849, x = 1000000000.000000
+wall clock time = 91.368032, Prod time: 0.0000000913680320, x = 1000000000.000000
+wall clock time = 91.441566, Prod time: 0.0000000914415665, x = 1000000000.000000
+wall clock time = 91.469868, Prod time: 0.0000000914698677, x = 1000000000.000000
+wall clock time = 91.268379, Prod time: 0.0000000912683787, x = 1000000000.000000
+wall clock time = 91.467117, Prod time: 0.0000000914671168, x = 1000000000.000000
+wall clock time = 91.425768, Prod time: 0.0000000914257681, x = 1000000000.000000
+wall clock time = 91.409146, Prod time: 0.0000000914091463, x = 1000000000.000000
+wall clock time = 91.423816, Prod time: 0.0000000914238162, x = 1000000000.000000
+wall clock time = 91.402402, Prod time: 0.0000000914024024, x = 1000000000.000000
+wall clock time = 91.370563, Prod time: 0.0000000913705633, x = 1000000000.000000
+wall clock time = 91.427686, Prod time: 0.0000000914276860, x = 1000000000.000000
+wall clock time = 91.400341, Prod time: 0.0000000914003413, x = 1000000000.000000
+wall clock time = 91.527833, Prod time: 0.0000000915278335, x = 1000000000.000000
+wall clock time = 91.454990, Prod time: 0.0000000914549897, x = 1000000000.000000
+wall clock time = 91.525052, Prod time: 0.0000000915250523, x = 1000000000.000000
+wall clock time = 91.436990, Prod time: 0.0000000914369905, x = 1000000000.000000
+wall clock time = 91.338322, Prod time: 0.0000000913383219, x = 1000000000.000000
+wall clock time = 91.398305, Prod time: 0.0000000913983052, x = 1000000000.000000
+wall clock time = 91.379098, Prod time: 0.0000000913790977, x = 1000000000.000000
+wall clock time = 91.505010, Prod time: 0.0000000915050097, x = 1000000000.000000
+wall clock time = 91.576120, Prod time: 0.0000000915761197, x = 1000000000.000000
+wall clock time = 91.462012, Prod time: 0.0000000914620123, x = 1000000000.000000
+wall clock time = 91.525103, Prod time: 0.0000000915251031, x = 1000000000.000000
+wall clock time = 91.311680, Prod time: 0.0000000913116796, x = 1000000000.000000
+wall clock time = 91.579956, Prod time: 0.0000000915799558, x = 1000000000.000000
+wall clock time = 91.462352, Prod time: 0.0000000914623520, x = 1000000000.000000
+wall clock time = 91.432094, Prod time: 0.0000000914320943, x = 1000000000.000000
+wall clock time = 91.588127, Prod time: 0.0000000915881271, x = 1000000000.000000
+wall clock time = 91.508358, Prod time: 0.0000000915083578, x = 1000000000.000000
+wall clock time = 91.408873, Prod time: 0.0000000914088728, x = 1000000000.000000
+wall clock time = 91.529202, Prod time: 0.0000000915292022, x = 1000000000.000000
+wall clock time = 91.569324, Prod time: 0.0000000915693235, x = 1000000000.000000
+wall clock time = 91.497586, Prod time: 0.0000000914975858, x = 1000000000.000000
+wall clock time = 91.513627, Prod time: 0.0000000915136271, x = 1000000000.000000
+wall clock time = 91.375441, Prod time: 0.0000000913754406, x = 1000000000.000000
+wall clock time = 91.525555, Prod time: 0.0000000915255554, x = 1000000000.000000
+wall clock time = 91.560907, Prod time: 0.0000000915609074, x = 1000000000.000000
+wall clock time = 91.534734, Prod time: 0.0000000915347345, x = 1000000000.000000
+wall clock time = 91.594186, Prod time: 0.0000000915941856, x = 1000000000.000000
+wall clock time = 91.560273, Prod time: 0.0000000915602734, x = 1000000000.000000
+wall clock time = 91.458210, Prod time: 0.0000000914582105, x = 1000000000.000000
+wall clock time = 91.803911, Prod time: 0.0000000918039110, x = 1000000000.000000
+wall clock time = 91.490923, Prod time: 0.0000000914909229, x = 1000000000.000000
+wall clock time = 91.492214, Prod time: 0.0000000914922140, x = 1000000000.000000
+wall clock time = 91.612115, Prod time: 0.0000000916121154, x = 1000000000.000000
+wall clock time = 91.473870, Prod time: 0.0000000914738703, x = 1000000000.000000
+wall clock time = 91.548230, Prod time: 0.0000000915482299, x = 1000000000.000000
+wall clock time = 91.990460, Prod time: 0.0000000919904597, x = 1000000000.000000
+wall clock time = 92.175221, Prod time: 0.0000000921752214, x = 1000000000.000000
+wall clock time = 95.565778, Prod time: 0.0000000955657785, x = 1000000000.000000
+wall clock time = 102.319373, Prod time: 0.0000001023193727, x = 1000000000.000000
+wall clock time = 102.339507, Prod time: 0.0000001023395071, x = 1000000000.000000
+wall clock time = 102.355610, Prod time: 0.0000001023556104, x = 1000000000.000000
+wall clock time = 102.402370, Prod time: 0.0000001024023702, x = 1000000000.000000
+wall clock time = 102.363225, Prod time: 0.0000001023632245, x = 1000000000.000000
+wall clock time = 102.425534, Prod time: 0.0000001024255340, x = 1000000000.000000
+wall clock time = 102.401241, Prod time: 0.0000001024012413, x = 1000000000.000000
+wall clock time = 102.441896, Prod time: 0.0000001024418964, x = 1000000000.000000
+wall clock time = 102.377685, Prod time: 0.0000001023776848, x = 1000000000.000000
+wall clock time = 102.404943, Prod time: 0.0000001024049432, x = 1000000000.000000
+wall clock time = 102.453621, Prod time: 0.0000001024536207, x = 1000000000.000000
+wall clock time = 102.359605, Prod time: 0.0000001023596048, x = 1000000000.000000
+wall clock time = 102.442179, Prod time: 0.0000001024421790, x = 1000000000.000000
+wall clock time = 102.362655, Prod time: 0.0000001023626547, x = 1000000000.000000
+wall clock time = 102.358571, Prod time: 0.0000001023585711, x = 1000000000.000000
+wall clock time = 102.391100, Prod time: 0.0000001023910997, x = 1000000000.000000
+wall clock time = 102.359603, Prod time: 0.0000001023596027, x = 1000000000.000000
+wall clock time = 102.497491, Prod time: 0.0000001024974911, x = 1000000000.000000
+wall clock time = 102.274688, Prod time: 0.0000001022746885, x = 1000000000.000000
+wall clock time = 102.414365, Prod time: 0.0000001024143651, x = 1000000000.000000
+wall clock time = 102.493310, Prod time: 0.0000001024933102, x = 1000000000.000000
+wall clock time = 102.444570, Prod time: 0.0000001024445696, x = 1000000000.000000
+wall clock time = 102.478934, Prod time: 0.0000001024789336, x = 1000000000.000000
+wall clock time = 102.414455, Prod time: 0.0000001024144547, x = 1000000000.000000
+wall clock time = 102.473507, Prod time: 0.0000001024735074, x = 1000000000.000000
+wall clock time = 102.450823, Prod time: 0.0000001024508226, x = 1000000000.000000
+wall clock time = 102.374968, Prod time: 0.0000001023749678, x = 1000000000.000000
+wall clock time = 102.351525, Prod time: 0.0000001023515248, x = 1000000000.000000
+wall clock time = 102.347034, Prod time: 0.0000001023470345, x = 1000000000.000000
+wall clock time = 102.489322, Prod time: 0.0000001024893224, x = 1000000000.000000
+wall clock time = 102.367142, Prod time: 0.0000001023671420, x = 1000000000.000000
+wall clock time = 102.434417, Prod time: 0.0000001024344172, x = 1000000000.000000
+wall clock time = 102.540567, Prod time: 0.0000001025405672, x = 1000000000.000000
+wall clock time = 102.367148, Prod time: 0.0000001023671479, x = 1000000000.000000
+wall clock time = 102.335459, Prod time: 0.0000001023354595, x = 1000000000.000000
+wall clock time = 102.458159, Prod time: 0.0000001024581592, x = 1000000000.000000
+wall clock time = 102.367248, Prod time: 0.0000001023672481, x = 1000000000.000000
+wall clock time = 102.454301, Prod time: 0.0000001024543009, x = 1000000000.000000
+wall clock time = 102.509768, Prod time: 0.0000001025097678, x = 1000000000.000000
+wall clock time = 102.573246, Prod time: 0.0000001025732465, x = 1000000000.000000
+wall clock time = 102.478516, Prod time: 0.0000001024785163, x = 1000000000.000000
+wall clock time = 102.560891, Prod time: 0.0000001025608914, x = 1000000000.000000
+wall clock time = 102.398814, Prod time: 0.0000001023988142, x = 1000000000.000000
+wall clock time = 102.537270, Prod time: 0.0000001025372696, x = 1000000000.000000
+wall clock time = 102.442326, Prod time: 0.0000001024423258, x = 1000000000.000000
+wall clock time = 102.474079, Prod time: 0.0000001024740794, x = 1000000000.000000
+wall clock time = 102.541303, Prod time: 0.0000001025413034, x = 1000000000.000000
+wall clock time = 102.537984, Prod time: 0.0000001025379839, x = 1000000000.000000
+wall clock time = 102.474258, Prod time: 0.0000001024742579, x = 1000000000.000000
+wall clock time = 102.573485, Prod time: 0.0000001025734849, x = 1000000000.000000
+wall clock time = 102.541626, Prod time: 0.0000001025416265, x = 1000000000.000000
+wall clock time = 102.529540, Prod time: 0.0000001025295401, x = 1000000000.000000
+wall clock time = 102.315759, Prod time: 0.0000001023157587, x = 1000000000.000000
+wall clock time = 102.458167, Prod time: 0.0000001024581673, x = 1000000000.000000
+wall clock time = 102.529824, Prod time: 0.0000001025298245, x = 1000000000.000000
+wall clock time = 102.644186, Prod time: 0.0000001026441863, x = 1000000000.000000
+wall clock time = 102.419447, Prod time: 0.0000001024194467, x = 1000000000.000000
+wall clock time = 102.597133, Prod time: 0.0000001025971334, x = 1000000000.000000
+wall clock time = 102.537173, Prod time: 0.0000001025371726, x = 1000000000.000000
+wall clock time = 102.419342, Prod time: 0.0000001024193423, x = 1000000000.000000
+wall clock time = 102.549009, Prod time: 0.0000001025490086, x = 1000000000.000000
+wall clock time = 102.569050, Prod time: 0.0000001025690498, x = 1000000000.000000
+wall clock time = 102.632267, Prod time: 0.0000001026322670, x = 1000000000.000000
+wall clock time = 102.593201, Prod time: 0.0000001025932012, x = 1000000000.000000
+wall clock time = 102.592048, Prod time: 0.0000001025920479, x = 1000000000.000000
+wall clock time = 102.588998, Prod time: 0.0000001025889978, x = 1000000000.000000
+wall clock time = 102.506083, Prod time: 0.0000001025060833, x = 1000000000.000000
+wall clock time = 102.431270, Prod time: 0.0000001024312701, x = 1000000000.000000
+wall clock time = 102.644411, Prod time: 0.0000001026444113, x = 1000000000.000000
+wall clock time = 102.403450, Prod time: 0.0000001024034498, x = 1000000000.000000
+wall clock time = 106.664672, Prod time: 0.0000001066646719, x = 1000000000.000000
