@@ -1,0 +1,180 @@
+[H[2J[22;32mTIME: 2015-03-01 10:59:14
+[mFinish Process 0
+Tamano matriz: 500 Procesadores: 1 Tiempo de ejecucion: 0.459046
+[22;32mTIME: 2015-03-01 10:59:14
+[mFinish Process 0
+Tamano matriz: 1000 Procesadores: 1 Tiempo de ejecucion: 2.721815
+[22;32mTIME: 2015-03-01 10:59:17
+[mFinish Process 0
+Tamano matriz: 1500 Procesadores: 1 Tiempo de ejecucion: 15.792808
+[22;32mTIME: 2015-03-01 10:59:33
+[mFinish Process 0
+Tamano matriz: 2000 Procesadores: 1 Tiempo de ejecucion: 29.808531
+[22;32mTIME: 2015-03-01 11:00:03
+[mFinish Process 0
+Tamano matriz: 2500 Procesadores: 1 Tiempo de ejecucion: 71.803725
+[22;32mTIME: 2015-03-01 11:01:15
+[mFinish Process 0
+Tamano matriz: 3000 Procesadores: 1 Tiempo de ejecucion: 106.594501
+[22;32mTIME: 2015-03-01 11:03:01
+[mFinish Process 0
+Tamano matriz: 3500 Procesadores: 1 Tiempo de ejecucion: 193.832258
+[22;32mTIME: 2015-03-01 11:06:15
+[mFinish Process 0
+Tamano matriz: 4000 Procesadores: 1 Tiempo de ejecucion: 243.350782
+[22;32mTIME: 2015-03-01 11:10:18
+[mFinish Process 0
+Tamano matriz: 4500 Procesadores: 1 Tiempo de ejecucion: 413.713604
+[22;32mTIME: 2015-03-01 11:17:12
+[mFinish Process 0
+Tamano matriz: 5000 Procesadores: 1 Tiempo de ejecucion: 487.187858
+[22;32mTIME: 2015-03-01 11:25:19
+[mFinish Process 1
+Finish Process 0
+Tamano matriz: 500 Procesadores: 2 Tiempo de ejecucion: 0.254421
+[22;32mTIME: 2015-03-01 11:25:20
+[mFinish Process 1
+Finish Process 0
+Tamano matriz: 1000 Procesadores: 2 Tiempo de ejecucion: 1.437361
+[22;32mTIME: 2015-03-01 11:25:21
+[mFinish Process 1
+Finish Process 0
+Tamano matriz: 1500 Procesadores: 2 Tiempo de ejecucion: 8.043506
+[22;32mTIME: 2015-03-01 11:25:29
+[mFinish Process 1
+Finish Process 0
+Tamano matriz: 2000 Procesadores: 2 Tiempo de ejecucion: 15.308600
+[22;32mTIME: 2015-03-01 11:25:44
+[mFinish Process 1
+Finish Process 0
+Tamano matriz: 2500 Procesadores: 2 Tiempo de ejecucion: 36.537636
+[22;32mTIME: 2015-03-01 11:26:21
+[mFinish Process 1
+Finish Process 0
+Tamano matriz: 3000 Procesadores: 2 Tiempo de ejecucion: 54.564938
+[22;32mTIME: 2015-03-01 11:27:15
+[mFinish Process 1
+Finish Process 0
+Tamano matriz: 3500 Procesadores: 2 Tiempo de ejecucion: 99.359903
+[22;32mTIME: 2015-03-01 11:28:55
+[mFinish Process 1
+Finish Process 0
+Tamano matriz: 4000 Procesadores: 2 Tiempo de ejecucion: 136.618175
+[22;32mTIME: 2015-03-01 11:31:11
+[mFinish Process 1
+Finish Process 0
+Tamano matriz: 4500 Procesadores: 2 Tiempo de ejecucion: 210.665503
+[22;32mTIME: 2015-03-01 11:34:42
+[mFinish Process 1
+Finish Process 0
+Tamano matriz: 5000 Procesadores: 2 Tiempo de ejecucion: 249.607958
+[22;32mTIME: 2015-03-01 11:38:52
+[mFinish Process 2
+Finish Process 1
+Finish Process 0
+Tamano matriz: 500 Procesadores: 3 Tiempo de ejecucion: 0.178457
+[22;32mTIME: 2015-03-01 11:38:52
+[mFinish Process 2
+Finish Process 0
+Tamano matriz: 1000 Procesadores: 3 Tiempo de ejecucion: 1.020069
+Finish Process 1
+[22;32mTIME: 2015-03-01 11:38:53
+[mFinish Process 2
+Finish Process 0
+Tamano matriz: 1500 Procesadores: 3 Tiempo de ejecucion: 5.509375
+Finish Process 1
+[22;32mTIME: 2015-03-01 11:38:58
+[mFinish Process 1
+Finish Process 0
+Tamano matriz: 2000 Procesadores: 3 Tiempo de ejecucion: 10.859745
+Finish Process 2
+[22;32mTIME: 2015-03-01 11:39:09
+[mFinish Process 1
+Finish Process 2
+Finish Process 0
+Tamano matriz: 2500 Procesadores: 3 Tiempo de ejecucion: 24.980380
+[22;32mTIME: 2015-03-01 11:39:34
+[mFinish Process 1
+Finish Process 2
+Finish Process 0
+Tamano matriz: 3000 Procesadores: 3 Tiempo de ejecucion: 37.418968
+[22;32mTIME: 2015-03-01 11:40:12
+[mFinish Process 2
+Finish Process 1
+Finish Process 0
+Tamano matriz: 3500 Procesadores: 3 Tiempo de ejecucion: 67.985991
+[22;32mTIME: 2015-03-01 11:41:20
+[mFinish Process 1
+Finish Process 2
+Finish Process 0
+Tamano matriz: 4000 Procesadores: 3 Tiempo de ejecucion: 94.047270
+[22;32mTIME: 2015-03-01 11:42:54
+[mFinish Process 2
+Finish Process 1
+Finish Process 0
+Tamano matriz: 4500 Procesadores: 3 Tiempo de ejecucion: 144.322544
+[22;32mTIME: 2015-03-01 11:45:18
+[mFinish Process 2
+Finish Process 1
+Finish Process 0
+Tamano matriz: 5000 Procesadores: 3 Tiempo de ejecucion: 171.075380
+[22;32mTIME: 2015-03-01 11:48:09
+[mFinish Process 1
+Finish Process 2
+Finish Process 3
+Finish Process 0
+Tamano matriz: 500 Procesadores: 4 Tiempo de ejecucion: 0.140110
+[22;32mTIME: 2015-03-01 11:48:09
+[mFinish Process 1
+Finish Process 2
+Finish Process 3
+Finish Process 0
+Tamano matriz: 1000 Procesadores: 4 Tiempo de ejecucion: 0.801363
+[22;32mTIME: 2015-03-01 11:48:10
+[mFinish Process 3
+Finish Process 2
+Finish Process 1
+Finish Process 0
+Tamano matriz: 1500 Procesadores: 4 Tiempo de ejecucion: 4.237612
+[22;32mTIME: 2015-03-01 11:48:15
+[mFinish Process 3
+Finish Process 1
+Finish Process 2
+Finish Process 0
+Tamano matriz: 2000 Procesadores: 4 Tiempo de ejecucion: 8.500143
+[22;32mTIME: 2015-03-01 11:48:23
+[mFinish Process 3
+Finish Process 1
+Finish Process 0
+Tamano matriz: 2500 Procesadores: 4 Tiempo de ejecucion: 19.907918
+Finish Process 2
+[22;32mTIME: 2015-03-01 11:48:43
+[mFinish Process 2
+Finish Process 1
+Finish Process 3
+Finish Process 0
+Tamano matriz: 3000 Procesadores: 4 Tiempo de ejecucion: 29.753770
+[22;32mTIME: 2015-03-01 11:49:13
+[mFinish Process 3
+Finish Process 2
+Finish Process 1
+Finish Process 0
+Tamano matriz: 3500 Procesadores: 4 Tiempo de ejecucion: 53.547094
+[22;32mTIME: 2015-03-01 11:50:06
+[mFinish Process 2
+Finish Process 1
+Finish Process 3
+Finish Process 0
+Tamano matriz: 4000 Procesadores: 4 Tiempo de ejecucion: 73.031454
+[22;32mTIME: 2015-03-01 11:51:22
+[mFinish Process 1
+Finish Process 2
+Finish Process 3
+Finish Process 0
+Tamano matriz: 4500 Procesadores: 4 Tiempo de ejecucion: 112.809980
+[22;32mTIME: 2015-03-01 11:53:15
+[mFinish Process 1
+Finish Process 2
+Finish Process 3
+Finish Process 0
+Tamano matriz: 5000 Procesadores: 4 Tiempo de ejecucion: 130.543642
