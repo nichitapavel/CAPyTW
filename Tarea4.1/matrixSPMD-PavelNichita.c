@@ -149,6 +149,7 @@ int main(int argc, char *argv[]) {
 	MPI_Init(&argc,&argv);
 	MPI_Comm_size(MPI_COMM_WORLD,&numprocs);
 	MPI_Comm_rank(MPI_COMM_WORLD,&myid);
+	clock_t start = clock();
 
 	/**
 	 * Paso 1: Creamos matriz B, multiplicador
@@ -241,6 +242,12 @@ int main(int argc, char *argv[]) {
 	free(recv_matrix_A);
 	
 	fprintf(stdout, "Finish Process %d\n", myid);
+	clock_t end = clock();
+
+	if(myid == root) {
+		fprintf(stdout, "Tamano matriz: %d Procesadores: %d ", size_rows, numprocs);
+		fprintf(stdout, "Tiempo de ejecucion: %f\n", (double)(end-start)/CLOCKS_PER_SEC);
+	}
 
 	MPI_Finalize();
 	return 0;
