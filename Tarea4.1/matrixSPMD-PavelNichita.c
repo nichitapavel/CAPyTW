@@ -227,7 +227,7 @@ int main(int argc, char *argv[]) {
 	matrix_C = malloc(matrix_size*INT);
 	MPI_Gatherv(recv_matrix_A, sendcount[myid], MPI_INT,
 							matrix_C, sendcount, displs, MPI_INT,
-						  root, MPI_COMM_WORLD);
+							root, MPI_COMM_WORLD);
 
 	/*
 	 * Imprimir Matriz B y Matriz resultante de la multiplicación
