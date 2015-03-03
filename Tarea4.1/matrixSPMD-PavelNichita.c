@@ -25,7 +25,7 @@
  *              valor distinto a "0" - se imprime
  * 
  * @author Pavel Nichita
- * @version 1.0 28/02/15
+ * @version 1.2 03/03/15
 */
 
 #include "mpi.h"
