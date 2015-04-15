@@ -1,0 +1,20 @@
+[H[2JProcesadores 1
+Tamaño 500
+Tiempo de ejecucion: 2.176634
+Tamaño 1000
+Tiempo de ejecucion: 17.438747
+Tamaño 1500
+Tiempo de ejecucion: 59.715755
+Tamaño 2000
+Tiempo de ejecucion: 138.915466
+Tamaño 2500
+Tiempo de ejecucion: 272.645588
+Tamaño 3000
+Tiempo de ejecucion: 469.077749
+Tamaño 3500
+Tiempo de ejecucion: 753.212536
+Tamaño 4000
+Tiempo de ejecucion: 1136.511286
+Tamaño 4500
+Tiempo de ejecucion: 1603.950983
+Tamaño 5000
