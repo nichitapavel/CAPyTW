@@ -1,18 +1,84 @@
 [H[2JProcesadores 1
 Tamaño 500
-Tiempo de ejecucion: 1.794886
+Tiempo de ejecucion: 1.176414
 Tamaño 1000
-Tiempo de ejecucion: 16.813615
+Tiempo de ejecucion: 11.077245
 Tamaño 1500
-Tiempo de ejecucion: 63.506162
+Tiempo de ejecucion: 43.624174
 Tamaño 2000
-Tiempo de ejecucion: 115.806298
+Tiempo de ejecucion: 79.886640
 Tamaño 2500
-Tiempo de ejecucion: 289.455062
+Tiempo de ejecucion: 215.605539
 Tamaño 3000
-Tiempo de ejecucion: 428.629780
+Tiempo de ejecucion: 294.594390
 Tamaño 3500
-Tiempo de ejecucion: 819.100526
+Tiempo de ejecucion: 578.728552
 Tamaño 4000
-Tiempo de ejecucion: 1170.770731
+Tiempo de ejecucion: 803.848741
 Tamaño 4500
+Tiempo de ejecucion: 1303.811935
+Tamaño 5000
+Tiempo de ejecucion: 1571.123440
+Procesadores 2
+Tamaño 500
+Tiempo de ejecucion: 0.638188
+Tamaño 1000
+Tiempo de ejecucion: 5.688378
+Tamaño 1500
+Tiempo de ejecucion: 23.061218
+Tamaño 2000
+Tiempo de ejecucion: 43.224576
+Tamaño 2500
+Tiempo de ejecucion: 105.738558
+Tamaño 3000
+Tiempo de ejecucion: 155.717569
+Tamaño 3500
+Tiempo de ejecucion: 299.205185
+Tamaño 4000
+Tiempo de ejecucion: 412.427262
+Tamaño 4500
+Tiempo de ejecucion: 674.989194
+Tamaño 5000
+Tiempo de ejecucion: 811.216960
+Procesadores 3
+Tamaño 500
+Tiempo de ejecucion: 0.741369
+Tamaño 1000
+Tiempo de ejecucion: 5.712559
+Tamaño 1500
+Tiempo de ejecucion: 20.922898
+Tamaño 2000
+Tiempo de ejecucion: 43.736661
+Tamaño 2500
+Tiempo de ejecucion: 99.398329
+Tamaño 3000
+Tiempo de ejecucion: 158.661301
+Tamaño 3500
+Tiempo de ejecucion: 304.809953
+Tamaño 4000
+Tiempo de ejecucion: 469.841789
+Tamaño 4500
+Tiempo de ejecucion: 711.824334
+Tamaño 5000
+Tiempo de ejecucion: 807.496185
+Procesadores 4
+Tamaño 500
+Tiempo de ejecucion: 0.583108
+Tamaño 1000
+Tiempo de ejecucion: 5.497120
+Tamaño 1500
+Tiempo de ejecucion: 18.766559
+Tamaño 2000
+Tiempo de ejecucion: 40.142899
+Tamaño 2500
+Tiempo de ejecucion: 87.714268
+Tamaño 3000
+Tiempo de ejecucion: 149.098203
+Tamaño 3500
+Tiempo de ejecucion: 249.739645
+Tamaño 4000
+Tiempo de ejecucion: 347.699308
+Tamaño 4500
+Tiempo de ejecucion: 535.177199
+Tamaño 5000
+Tiempo de ejecucion: 753.110072
