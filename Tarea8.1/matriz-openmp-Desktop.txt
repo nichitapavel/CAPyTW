@@ -18,3 +18,67 @@ Tiempo de ejecucion: 1136.511286
 Tamaño 4500
 Tiempo de ejecucion: 1603.950983
 Tamaño 5000
+Tiempo de ejecucion: 2162.872050
+Procesadores 2
+Tamaño 500
+Tiempo de ejecucion: 1.094130
+Tamaño 1000
+Tiempo de ejecucion: 8.687353
+Tamaño 1500
+Tiempo de ejecucion: 29.966726
+Tamaño 2000
+Tiempo de ejecucion: 69.830819
+Tamaño 2500
+Tiempo de ejecucion: 136.399182
+Tamaño 3000
+Tiempo de ejecucion: 235.203862
+Tamaño 3500
+Tiempo de ejecucion: 376.975782
+Tamaño 4000
+Tiempo de ejecucion: 590.329685
+Tamaño 4500
+Tiempo de ejecucion: 798.710522
+Tamaño 5000
+Tiempo de ejecucion: 1078.099624
+Procesadores 3
+Tamaño 500
+Tiempo de ejecucion: 0.749115
+Tamaño 1000
+Tiempo de ejecucion: 5.826254
+Tamaño 1500
+Tiempo de ejecucion: 20.052084
+Tamaño 2000
+Tiempo de ejecucion: 47.103994
+Tamaño 2500
+Tiempo de ejecucion: 91.241270
+Tamaño 3000
+Tiempo de ejecucion: 156.033806
+Tamaño 3500
+Tiempo de ejecucion: 253.934799
+Tamaño 4000
+Tiempo de ejecucion: 395.532512
+Tamaño 4500
+Tiempo de ejecucion: 532.921894
+Tamaño 5000
+Tiempo de ejecucion: 720.651221
+Procesadores 4
+Tamaño 500
+Tiempo de ejecucion: 0.610282
+Tamaño 1000
+Tiempo de ejecucion: 4.392513
+Tamaño 1500
+Tiempo de ejecucion: 15.168846
+Tamaño 2000
+Tiempo de ejecucion: 35.402088
+Tamaño 2500
+Tiempo de ejecucion: 69.714071
+Tamaño 3000
+Tiempo de ejecucion: 118.272583
+Tamaño 3500
+Tiempo de ejecucion: 189.738327
+Tamaño 4000
+Tiempo de ejecucion: 286.973687
+Tamaño 4500
+Tiempo de ejecucion: 404.765548
+Tamaño 5000
+Tiempo de ejecucion: 546.265317
