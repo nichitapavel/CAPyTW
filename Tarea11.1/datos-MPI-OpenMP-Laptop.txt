@@ -1,0 +1,11 @@
+lun may  4 00:00:41 WEST 2015
+Tamano matriz: 1000 Procesadores: 1 Tiempo de ejecucion: 2.132524
+Tamano matriz: 2000 Procesadores: 1 Tiempo de ejecucion: 14.227558
+Tamano matriz: 3000 Procesadores: 1 Tiempo de ejecucion: 55.752064
+Tamano matriz: 4000 Procesadores: 1 Tiempo de ejecucion: 164.593404
+Tamano matriz: 5000 Procesadores: 1 Tiempo de ejecucion: 343.290924
+Tamano matriz: 1000 Procesadores: 2 Tiempo de ejecucion: 4.853587
+Tamano matriz: 2000 Procesadores: 2 Tiempo de ejecucion: 18.215609
+Tamano matriz: 3000 Procesadores: 2 Tiempo de ejecucion: 59.750479
+Tamano matriz: 4000 Procesadores: 2 Tiempo de ejecucion: 152.541830
+Tamano matriz: 5000 Procesadores: 2 Tiempo de ejecucion: 317.349816
