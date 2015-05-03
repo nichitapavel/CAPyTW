@@ -249,7 +249,7 @@ int main(int argc, char *argv[]) {
 	free(displs);
 	free(recv_matrix_A);
 
-	fprintf(stdout, "Finish Process %d\n", myid);
+	//fprintf(stdout, "Finish Process %d\n", myid);
 
 	if(myid == root) {
 		clock_t end = clock();
