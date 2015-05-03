@@ -1,4 +1,5 @@
 dom may  3 23:51:03 WEST 2015
+OMP_NUM_THREADS=2
 Tamano matriz: 1000 Procesadores: 1 Tiempo de ejecucion: 3.358783
 Tamano matriz: 2000 Procesadores: 1 Tiempo de ejecucion: 24.973738
 Tamano matriz: 3000 Procesadores: 1 Tiempo de ejecucion: 89.389945
@@ -9,3 +10,9 @@ Tamano matriz: 2000 Procesadores: 2 Tiempo de ejecucion: 13.045608
 Tamano matriz: 3000 Procesadores: 2 Tiempo de ejecucion: 46.210396
 Tamano matriz: 4000 Procesadores: 2 Tiempo de ejecucion: 116.045783
 Tamano matriz: 5000 Procesadores: 2 Tiempo de ejecucion: 213.667288
+OMP_NUM_THREADS=4
+Tamano matriz: 1000 Procesadores: 1 Tiempo de ejecucion: 1.771241
+Tamano matriz: 2000 Procesadores: 1 Tiempo de ejecucion: 13.245564
+Tamano matriz: 3000 Procesadores: 1 Tiempo de ejecucion: 46.146526
+Tamano matriz: 4000 Procesadores: 1 Tiempo de ejecucion: 116.596547
+Tamano matriz: 5000 Procesadores: 1 Tiempo de ejecucion: 212.350424
