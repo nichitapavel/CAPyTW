@@ -1,3 +1,4 @@
+mpicc -fopenmp -o matrix matrix-MPI-OpenMP-PavelNichita.c
 date
 export OMP_NUM_THREADS=2
 echo 'OMP_NUM_THREADS='$OMP_NUM_THREADS
