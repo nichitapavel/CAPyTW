@@ -1,0 +1,11 @@
+lun may  4 21:37:58 WEST 2015
+Tamaño: 500 Tiempo de ejecucion: 1.802318
+Tamaño: 1000 Tiempo de ejecucion: 17.471171
+Tamaño: 1500 Tiempo de ejecucion: 48.907884
+Tamaño: 2000 Tiempo de ejecucion: 103.261465
+Tamaño: 2500 Tiempo de ejecucion: 227.271739
+Tamaño: 3000 Tiempo de ejecucion: 385.707545
+Tamaño: 3500 Tiempo de ejecucion: 625.051396
+Tamaño: 4000 Tiempo de ejecucion: 878.805468
+Tamaño: 4500 Tiempo de ejecucion: 1329.698783
+Tamaño: 5000 Tiempo de ejecucion: 1805.198815
