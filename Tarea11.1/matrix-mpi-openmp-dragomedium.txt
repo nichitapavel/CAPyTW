@@ -1,0 +1,15 @@
+lun may  4 14:44:01 WEST 2015
+Tamano matriz: 1000 MPI: 1 OpenMP: 2 Tiempo de ejecucion: 10.181987
+Tamano matriz: 1000 MPI: 2 OpenMP: 2 Tiempo de ejecucion: 15.755742
+OpenMP=4
+Tamano matriz: 1000 MPI: 1 OpenMP: 4 Tiempo de ejecucion: 15.673483
+Tamano matriz: 1000 MPI: 2 OpenMP: 4 Tiempo de ejecucion: 10.317753
+OpenMP=8
+Tamano matriz: 1000 MPI: 1 OpenMP: 8 Tiempo de ejecucion: 8.306642
+Tamano matriz: 1000 MPI: 2 OpenMP: 8 Tiempo de ejecucion: 4.964439
+OpenMP=16
+Tamano matriz: 1000 MPI: 1 OpenMP: 16 Tiempo de ejecucion: 4.176388
+Tamano matriz: 1000 MPI: 2 OpenMP: 16 Tiempo de ejecucion: 2.341496
+OpenMP=32
+Tamano matriz: 1000 MPI: 1 OpenMP: 32 Tiempo de ejecucion: 2.302421
+Tamano matriz: 1000 MPI: 2 OpenMP: 32 Tiempo de ejecucion: 1.350770
