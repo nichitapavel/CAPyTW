@@ -1,31 +1,41 @@
 /**
  * Computación de Altas Prestaciónes y Tecnnologías Web
- * matrixSPMD-PavelNichita.c
+ * matrix-MPI-OpenMP-PavelNichita.c
  * Purpose: multiplicación paralela de matrices utilizando
- *  Scatterv y Gatherv de MPI
+ *  MPI y OpenMP de forma hibrida.
+ * 
+ * El funcionamiento del algoritmo es muy similar a la versión que se 
+ * implementa solo con MPI: la matriz se trozea y se envia a cada core
+ * y se multiplica, lo unico que ahora la multiplicación en cada core va con hilos de OpenMP.
+ * Si tenemos que dividir el algoritmo en pasos sería:
+ * Paso 1: trozeado y envio de la matriz con MPI
+ * Paso 2: multiplicación de los trozos en paralelo con OpenMP.
  * 
  * Se declaran dos matrices @matrix_A y @matrix_B.
  * La matriz @matrix_A se enviá por trozos a los procesos mediante MPI_Scatterv.
  * La matriz @matrix_B se envia a todos los procesos mediante MPI_Bcast.
  * 
- * Se declara la matriz @matrix_C donde se guara el resultado de la multiplicación.
+ * Se declara la matriz @matrix_C donde se guarda el resultado de la multiplicación.
  * En la matriz @matrix_C se colecta las multiplicaciones realizados por los
  *  procesos mediante MPI_Gatherv.
+ * 
+ * En @mult_matrix donde se multiplica se añaden las directivas de OpenMP
  * 
  * *****************************
  * -----**** ATENCIÓN *****-----
  * *****************************
- * Por la linea de comandos se pasan varios argumentos (no hay valores por defecto): 
- * mpirun -n 4 ./matrixSPMDPavelNichita.out 500 40 2 0
+ * Por la linea de comandos se pasan varios argumentos (no hay valores por defecto), ej: 
+ * mpirun -n 4 ./matrixSPMDPavelNichita.out 500 40 2 0 3
  * donde 500 - es el tamaño de la matriz: 500x500
  * donde 40  - es el modulo de matriz A (mirar @module_A)
  * donde 2   - es el modulo de matriz B (mirar @module_B)
  * donde 0   - es si se imprimem las matrices:
  *              valor "0"            - no se imprime
  *              valor distinto a "0" - se imprime
+ * donde 3   - es el numero de hilos para OpenMP
  * 
  * @author Pavel Nichita
- * @version 1.2 03/03/15
+ * @version 1.1 04/05/15
 */
 
 #include "mpi.h"
@@ -90,6 +100,7 @@ int main(int argc, char *argv[]) {
 	 * @root     - proceso principal, en este caso 0
 	 * @myid     - identificador proceso "actual"
 	 * @numprocs - numero de procesos
+	 * @omp_threads - numero de hilos para OpenMPI
 
 	 *  Descripción de variables - Tamaños de matrices
 	 * @size_rows   - numero de filas de las matrices, se establece mediante argv[1]
@@ -122,8 +133,10 @@ int main(int argc, char *argv[]) {
 	 * @module_B   - modulo de la matriz B, igual que @module_A
 	 *               se recibe mediante argv[3]
 	 * @print      - imprimir matrices? 0: no, !0 = si, se recibe mediante argv[4]
+	 * @start      - Tiempo de inicio del algoritmo
+	 * @end        - Tiempo de fin del algoritmo
 	 */
-	int root = 0, myid, numprocs;
+	int root = 0, myid, numprocs, omp_threads;
 
 	int size_rows, size_cols, matrix_size;
 	int size_rows_recv_matrix_A;
@@ -134,6 +147,8 @@ int main(int argc, char *argv[]) {
 	int *sendcount, *displs;
 	int i, mod_block, index = 0;
 	int module_A, module_B, print;
+	
+	double start, end;
 
 	MPI_Status status;
 
@@ -147,11 +162,15 @@ int main(int argc, char *argv[]) {
 	module_B = atoi(argv[3]);
 	print    = atoi(argv[4]);
 
+	//Asignamos el numero de hilos OpenMP
+	omp_threads = atoi(argv[5]);
+	omp_set_num_threads(omp_threads);
+
 	MPI_Init(&argc,&argv);
 	MPI_Comm_size(MPI_COMM_WORLD,&numprocs);
 	MPI_Comm_rank(MPI_COMM_WORLD,&myid);
 	MPI_Barrier(MPI_COMM_WORLD); //sincronizar los procesos
-	double start = MPI_Wtime();
+	start = MPI_Wtime(); //establecer tiempo de inicio
 
 	/**
 	 * Paso 1: Creamos matriz B, multiplicador
@@ -253,8 +272,8 @@ int main(int argc, char *argv[]) {
 
 	MPI_Barrier(MPI_COMM_WORLD); //sincronizar los procesos
 	if(myid == root) {
-		double end = MPI_Wtime();
-		fprintf(stdout, "Tamano matriz: %d Procesadores: %d ", size_rows, numprocs);
+		end = MPI_Wtime();
+		fprintf(stdout, "Tamano matriz: %d MPI: %d OpenMP: %d ", size_rows, numprocs, omp_threads);
 		fprintf(stdout, "Tiempo de ejecucion: %f\n", end-start);
 	}
 
