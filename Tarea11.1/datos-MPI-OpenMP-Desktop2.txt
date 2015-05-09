@@ -1,0 +1,6 @@
+sáb may  9 19:09:06 WEST 2015
+Tamano matriz: 1000 MPI: 2 OpenMP: 1 Tiempo de ejecucion: 3.335369
+Tamano matriz: 2000 MPI: 2 OpenMP: 1 Tiempo de ejecucion: 24.763323
+Tamano matriz: 3000 MPI: 2 OpenMP: 1 Tiempo de ejecucion: 88.986653
+Tamano matriz: 4000 MPI: 2 OpenMP: 1 Tiempo de ejecucion: 256.204796
+Tamano matriz: 5000 MPI: 2 OpenMP: 1 Tiempo de ejecucion: 412.978658
